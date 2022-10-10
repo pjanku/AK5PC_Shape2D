@@ -20,8 +20,12 @@ public:
      */
     Point(int x, int y) : x(x), y(y) {}
 
-    int x; /**< coordinate X */
-    int y; /**< coordinate Y */
+    static int horizontalDistance(const Point &p1, const Point &p2);
+
+    static int verticalDistance(const Point &p1, const Point &p2);
+
+    int x; /**< @brief coordinate X */
+    int y; /**< @brief coordinate Y */
 };
 
 

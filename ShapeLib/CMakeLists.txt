@@ -6,6 +6,6 @@ set(CMAKE_CXX_STANDARD 14)
 add_library(ShapeLib
         src/point.cpp
         include/point.h
-        src/rectangle.cpp include/rectangle.h)
+        src/rectangle.cpp include/rectangle.h src/shape.cpp include/shape.h)
 
 target_include_directories(ShapeLib PUBLIC include)
