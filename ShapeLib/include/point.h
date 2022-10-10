@@ -5,6 +5,8 @@
 #ifndef SHAPE2D_POINT_H
 #define SHAPE2D_POINT_H
 
+#include <iostream>
+
 namespace ShapeLib {
     /**
      * @brief Simple class representing one point in cartesian coordinates
@@ -28,6 +30,9 @@ namespace ShapeLib {
         int x; /**< @brief coordinate X */
         int y; /**< @brief coordinate Y */
     };
+
+    std::ostream &operator<<(std::ostream& stream, const Point &point);
+
 }
 
 #endif //SHAPE2D_POINT_H

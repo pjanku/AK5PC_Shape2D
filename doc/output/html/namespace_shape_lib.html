@@ -89,13 +89,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a7fb5c4d3c706634aec9194930d3a1c3b"><td align="right" class="memItemLeft" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_shape_lib.html#a7fb5c4d3c706634aec9194930d3a1c3b">operator&lt;&lt;</a> (std::ostream &amp;stream, <a class="el" href="class_shape_lib_1_1_circle.html">Circle</a> &amp;circle)</td></tr>
 <tr class="memdesc:a7fb5c4d3c706634aec9194930d3a1c3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for <a class="el" href="class_shape_lib_1_1_circle.html" title="Simple class representing one Circle.">Circle</a> class.  <a href="namespace_shape_lib.html#a7fb5c4d3c706634aec9194930d3a1c3b">More...</a><br /></td></tr>
 <tr class="separator:a7fb5c4d3c706634aec9194930d3a1c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a891ab23101866f1131d9b8a115e58c41"><td align="right" class="memItemLeft" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_shape_lib.html#a891ab23101866f1131d9b8a115e58c41">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="class_shape_lib_1_1_point.html">Point</a> &amp;point)</td></tr>
+<tr class="memdesc:a891ab23101866f1131d9b8a115e58c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for the <a class="el" href="class_shape_lib_1_1_point.html" title="Simple class representing one point in cartesian coordinates.">Point</a> class.  <a href="namespace_shape_lib.html#a891ab23101866f1131d9b8a115e58c41">More...</a><br /></td></tr>
+<tr class="separator:a891ab23101866f1131d9b8a115e58c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8207d0f049bcc60b1c53d855e06bd8ea"><td align="right" class="memItemLeft" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_shape_lib.html#a8207d0f049bcc60b1c53d855e06bd8ea">operator&lt;&lt;</a> (std::ostream &amp;stream, <a class="el" href="class_shape_lib_1_1_rectangle.html">Rectangle</a> &amp;rect)</td></tr>
 <tr class="memdesc:a8207d0f049bcc60b1c53d855e06bd8ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for <a class="el" href="class_shape_lib_1_1_rectangle.html" title="Simple class representing a rectangle defined by two points.">Rectangle</a> class.  <a href="namespace_shape_lib.html#a8207d0f049bcc60b1c53d855e06bd8ea">More...</a><br /></td></tr>
 <tr class="separator:a8207d0f049bcc60b1c53d855e06bd8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a7fb5c4d3c706634aec9194930d3a1c3b" name="a7fb5c4d3c706634aec9194930d3a1c3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fb5c4d3c706634aec9194930d3a1c3b">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fb5c4d3c706634aec9194930d3a1c3b">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,8 +135,46 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a891ab23101866f1131d9b8a115e58c41" name="a891ab23101866f1131d9b8a115e58c41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a891ab23101866f1131d9b8a115e58c41">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; ShapeLib::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_lib_1_1_point.html">Point</a> &amp;&#160;</td>
+          <td class="paramname"><em>point</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stream operator for the <a class="el" href="class_shape_lib_1_1_point.html" title="Simple class representing one point in cartesian coordinates.">Point</a> class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stream</td><td>output stream </td></tr>
+    <tr><td class="paramname">point</td><td>the <a class="el" href="class_shape_lib_1_1_point.html" title="Simple class representing one point in cartesian coordinates.">Point</a> object to be printed out </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the original stream </dd></dl>
+
+</div>
+</div>
 <a id="a8207d0f049bcc60b1c53d855e06bd8ea" name="a8207d0f049bcc60b1c53d855e06bd8ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8207d0f049bcc60b1c53d855e06bd8ea">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8207d0f049bcc60b1c53d855e06bd8ea">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

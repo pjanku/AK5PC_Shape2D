@@ -44,8 +44,8 @@ void ShapeLib::Rectangle::recalculateDim() {
  */
 void ShapeLib::Rectangle::printInfo() const {
     std::cout << "Rectangle ID:" << ID << std::endl;
-    std::cout << "\tP1 (" << p1.x << "," << p1.y << ")" << std::endl;
-    std::cout << "\tP2 (" << p2.x << "," << p2.y << ")" << std::endl;
+    std::cout << "\tP1 " << p1 << std::endl;
+    std::cout << "\tP2 " << p2 << std::endl;
 }
 
 /**
@@ -74,8 +74,8 @@ void ShapeLib::Rectangle::setP2(const Point &p2) {
  */
 std::ostream &ShapeLib::operator<<(std::ostream &stream, ShapeLib::Rectangle &rect) {
     std::cout << "Rectangle ID:" << rect.getID() << std::endl;
-    std::cout << "\tP1 (" << rect.getP1().x << "," << rect.getP1().y << ")" << std::endl;
-    std::cout << "\tP2 (" << rect.getP2().x << "," << rect.getP2().y << ")" << std::endl;
+    std::cout << "\tP1 " << rect.getP1() << std::endl;
+    std::cout << "\tP2 " << rect.getP2() << std::endl;
     std::cout << "\tWidth: " << rect.getWidth() << std::endl;
     std::cout << "\tHeight:" << rect.getHeight() << std::endl;
 

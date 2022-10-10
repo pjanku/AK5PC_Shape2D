@@ -25,4 +25,15 @@ namespace ShapeLib {
     int Point::verticalDistance(const Point &p1, const Point &p2) {
         return std::abs(p1.y - p2.y);
     }
+
+    /**
+     * @brief Stream operator for the Point class
+     * @param stream output stream
+     * @param point the Point object to be printed out
+     * @return the original stream
+     */
+    std::ostream &operator<<(std::ostream &stream, const Point &point) {
+        stream << "( " << point.x << " , " << point.y << " )";
+        return stream;
+    }
 }

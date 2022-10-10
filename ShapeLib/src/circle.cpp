@@ -61,7 +61,7 @@ namespace ShapeLib {
      */
     void Circle::printInfo() const {
         std::cout << "Circle ID:" << ID << std::endl;
-        std::cout << "\tCenter point:  (" << centerPoint.x << "," << centerPoint.y << ")" << std::endl;
+        std::cout << "\tCenter point: " << centerPoint << std::endl;
         std::cout << "\tRadius:" << radius << std::endl;
     }
 
@@ -73,7 +73,7 @@ namespace ShapeLib {
      */
     std::ostream &operator<<(std::ostream &stream, Circle &circle) {
         stream << "Circle ID:" << circle.getID()  << std::endl;
-        stream << "\tCenter point:  (" << circle.getCenterPoint().x << "," << circle.getCenterPoint().y << ")" << std::endl;
+        stream << "\tCenter point: " << circle.getCenterPoint() << std::endl;
         stream << "\tRadius:" << circle.getRadius() << std::endl;
         stream << "\tBorder dim: " << circle.getBorderLength() << std::endl;
         stream << "\tArea volume: " << circle.getCircleVolume() << std::endl;

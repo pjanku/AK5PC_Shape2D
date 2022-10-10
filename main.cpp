@@ -4,7 +4,7 @@
 
 
 int main() {
-    Point p1(0, 0);
+    ShapeLib::Point p1(0, 0);
 
     ShapeLib::Rectangle r(0,0,0,10,20);
     r.printInfo();
