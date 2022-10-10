@@ -1,0 +1,98 @@
+\hypertarget{class_shape_lib_1_1_shape}{}\doxysection{Shape\+Lib\+::Shape Class Reference}
+\label{class_shape_lib_1_1_shape}\index{ShapeLib::Shape@{ShapeLib::Shape}}
+
+
+Interface for any 2D shape in this library.  
+
+
+
+
+{\ttfamily \#include $<$shape.\+h$>$}
+
+Inheritance diagram for Shape\+Lib\+::Shape\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_shape_lib_1_1_shape}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_shape_lib_1_1_shape_a35b50e546995358793c183e9951d275a}{Shape}} (int id)
+\item 
+virtual void \mbox{\hyperlink{class_shape_lib_1_1_shape_a8fe7ba6176973fb040ce490c60d31465}{print\+Info}} () const =0
+\begin{DoxyCompactList}\small\item\em Virtual function for printing information about the shape into the console. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_shape_lib_1_1_shape_a2f6b13212c95909d5198e1229f393fc6}{get\+ID}} () const
+\begin{DoxyCompactList}\small\item\em Getter for shape\textquotesingle{}s ID. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}{ID}}
+\begin{DoxyCompactList}\small\item\em internal ID of each shape \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface for any 2D shape in this library. 
+
+This function implements the basic ID management as well as virtual function \mbox{\hyperlink{class_shape_lib_1_1_shape_a8fe7ba6176973fb040ce490c60d31465}{print\+Info()}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_shape_lib_1_1_shape_a35b50e546995358793c183e9951d275a}\label{class_shape_lib_1_1_shape_a35b50e546995358793c183e9951d275a}} 
+\index{ShapeLib::Shape@{ShapeLib::Shape}!Shape@{Shape}}
+\index{Shape@{Shape}!ShapeLib::Shape@{ShapeLib::Shape}}
+\doxysubsubsection{\texorpdfstring{Shape()}{Shape()}}
+{\footnotesize\ttfamily Shape\+Lib\+::\+Shape\+::\+Shape (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+@brieaf Constructor of \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}} class 
+\begin{DoxyParams}{Parameters}
+{\em id} & an ID of the shape \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_shape_lib_1_1_shape_a2f6b13212c95909d5198e1229f393fc6}\label{class_shape_lib_1_1_shape_a2f6b13212c95909d5198e1229f393fc6}} 
+\index{ShapeLib::Shape@{ShapeLib::Shape}!getID@{getID}}
+\index{getID@{getID}!ShapeLib::Shape@{ShapeLib::Shape}}
+\doxysubsubsection{\texorpdfstring{getID()}{getID()}}
+{\footnotesize\ttfamily int Shape\+Lib\+::\+Shape\+::get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter for shape\textquotesingle{}s ID. 
+
+\begin{DoxyReturn}{Returns}
+the ID of the shape 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_shape_lib_1_1_shape_a8fe7ba6176973fb040ce490c60d31465}\label{class_shape_lib_1_1_shape_a8fe7ba6176973fb040ce490c60d31465}} 
+\index{ShapeLib::Shape@{ShapeLib::Shape}!printInfo@{printInfo}}
+\index{printInfo@{printInfo}!ShapeLib::Shape@{ShapeLib::Shape}}
+\doxysubsubsection{\texorpdfstring{printInfo()}{printInfo()}}
+{\footnotesize\ttfamily virtual void Shape\+Lib\+::\+Shape\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Virtual function for printing information about the shape into the console. 
+
+
+
+Implemented in \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a6525a5596c1c5ffe9fae2e342fc8b6be}{Shape\+Lib\+::\+Rectangle}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}\label{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}} 
+\index{ShapeLib::Shape@{ShapeLib::Shape}!ID@{ID}}
+\index{ID@{ID}!ShapeLib::Shape@{ShapeLib::Shape}}
+\doxysubsubsection{\texorpdfstring{ID}{ID}}
+{\footnotesize\ttfamily int Shape\+Lib\+::\+Shape\+::\+ID\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+internal ID of each shape 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/peterjanku/\+Sources\+Cpp/\+AK5\+PC\+\_\+\+Shape2\+D/\+Shape\+Lib/include/\mbox{\hyperlink{shape_8h}{shape.\+h}}\end{DoxyCompactItemize}

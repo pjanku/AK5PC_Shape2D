@@ -1,0 +1,304 @@
+\hypertarget{class_shape_lib_1_1_rectangle}{}\doxysection{Shape\+Lib\+::Rectangle Class Reference}
+\label{class_shape_lib_1_1_rectangle}\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+
+
+Simple class representing a rectangle defined by two points.  
+
+
+
+
+{\ttfamily \#include $<$rectangle.\+h$>$}
+
+Inheritance diagram for Shape\+Lib\+::Rectangle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_shape_lib_1_1_rectangle}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0dddab55be39b94262a49add32e4e630}{Rectangle}} (int id, int x1, int y1, int x2, int y2)
+\begin{DoxyCompactList}\small\item\em The rectangle constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_shape_lib_1_1_rectangle_ae2d456f1dd6493869fadc2dc40dfa02d}{Rectangle}} (int id, const \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}{p1}}, const \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}})
+\begin{DoxyCompactList}\small\item\em The main rectangle constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a6525a5596c1c5ffe9fae2e342fc8b6be}{print\+Info}} () const override
+\begin{DoxyCompactList}\small\item\em Virtual function for printing information about the shape into the console. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_shape_lib_1_1_rectangle_ad58f9b0453f4c6f90978bf4885901d28}{get\+Width}} ()
+\begin{DoxyCompactList}\small\item\em This function returns the current width of the rectangle. If the already calculated width is incorrect(the rectangle points were redefined), the dimensions are recalculated at first. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a7e797752dbac1aca17683835b10df42e}{get\+Height}} ()
+\begin{DoxyCompactList}\small\item\em This function returns the current height of the rectangle. If the already calculated height is incorrect(the rectangle points were redefined), the dimensions are recalculated at first. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{class_point}{Point}} \& \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a012e150fbb9d383c9b47c31ee1bfb147}{get\+P1}} () const
+\begin{DoxyCompactList}\small\item\em Return the first point in 2D space, which defines the rectangle. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{class_point}{Point}} \& \mbox{\hyperlink{class_shape_lib_1_1_rectangle_ae3bbdf4d53fe95f401657d44744cd33f}{get\+P2}} () const
+\begin{DoxyCompactList}\small\item\em Return the second point in 2D space, which defines the rectangle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_shape_lib_1_1_rectangle_adae6e5ad307a71bc3a7c7c1c42e3067d}{set\+P1}} (const \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}{p1}})
+\begin{DoxyCompactList}\small\item\em Setter for the first point of the rectangle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a1c2ab381c5d49609414540ac951d17db}{set\+P2}} (const \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}})
+\begin{DoxyCompactList}\small\item\em Setter for the second point of the rectangle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_shape_lib_1_1_rectangle_ab1c0e565e2ca7b6acb545a588ecdf781}{recalculate\+Dim}} ()
+\begin{DoxyCompactList}\small\item\em Recalculates the rectangle width and height. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}{p1}}
+\item 
+\mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}}
+\begin{DoxyCompactList}\small\item\em The first point in 2D space. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a76fedbe3b3568ffcf6485985ae0ea619}{width}}
+\begin{DoxyCompactList}\small\item\em Temporary storage of rectangle width. Don\textquotesingle{}t have to be correct!!!! \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a27484a4a1bf76ff9bef73da5ac03ca87}{height}}
+\begin{DoxyCompactList}\small\item\em Temporary storage of rectangle height. Don\textquotesingle{}t have to be correct!!!! \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a3069e6caf788ce55118a8f595af50f14}{dim\+Valid}} = false
+\begin{DoxyCompactList}\small\item\em Information if width and height is correct or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Simple class representing a rectangle defined by two points. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_point}{Point}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a0dddab55be39b94262a49add32e4e630}\label{class_shape_lib_1_1_rectangle_a0dddab55be39b94262a49add32e4e630}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Shape\+Lib\+::\+Rectangle\+::\+Rectangle (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{int}]{x1,  }\item[{int}]{y1,  }\item[{int}]{x2,  }\item[{int}]{y2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The rectangle constructor. 
+
+This constructor is calling the second one with modified parameters. This can be done since C++11 standard and it\textquotesingle{}s called constructor delegation. 
+\begin{DoxyParams}{Parameters}
+{\em id} & \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}} ID \\
+\hline
+{\em x1} & X coordinate of first rectangle\textquotesingle{}s point \\
+\hline
+{\em y1} & Y coordinate of first rectangle\textquotesingle{}s point \\
+\hline
+{\em x2} & X coordinate of second rectangle\textquotesingle{}s point \\
+\hline
+{\em y2} & Y coordinate of second rectangle\textquotesingle{}s point \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_ae2d456f1dd6493869fadc2dc40dfa02d}\label{class_shape_lib_1_1_rectangle_ae2d456f1dd6493869fadc2dc40dfa02d}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Shape\+Lib\+::\+Rectangle\+::\+Rectangle (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{const \mbox{\hyperlink{class_point}{Point}} \&}]{p1,  }\item[{const \mbox{\hyperlink{class_point}{Point}} \&}]{p2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The main rectangle constructor. 
+
+This constructor stores all \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}}\textquotesingle{}s internal members as well as members defined in \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}} class. It also calls constructor of \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}} class. Finally, it recalculates the value dimensions of the rectangle. \begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_rectangle_ab1c0e565e2ca7b6acb545a588ecdf781}{recalculate\+Dim()}} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+{\em p1} & \\
+\hline
+{\em p2} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a7e797752dbac1aca17683835b10df42e}\label{class_shape_lib_1_1_rectangle_a7e797752dbac1aca17683835b10df42e}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!getHeight@{getHeight}}
+\index{getHeight@{getHeight}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{getHeight()}{getHeight()}}
+{\footnotesize\ttfamily int Shape\+Lib\+::\+Rectangle\+::get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function returns the current height of the rectangle. If the already calculated height is incorrect(the rectangle points were redefined), the dimensions are recalculated at first. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_rectangle_ab1c0e565e2ca7b6acb545a588ecdf781}{recalculate\+Dim()}} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+current height of the rectangle. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a012e150fbb9d383c9b47c31ee1bfb147}\label{class_shape_lib_1_1_rectangle_a012e150fbb9d383c9b47c31ee1bfb147}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!getP1@{getP1}}
+\index{getP1@{getP1}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{getP1()}{getP1()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_point}{Point}} \& Shape\+Lib\+::\+Rectangle\+::get\+P1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return the first point in 2D space, which defines the rectangle. 
+
+\begin{DoxyReturn}{Returns}
+Const reference to the point 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_point}{Point}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_ae3bbdf4d53fe95f401657d44744cd33f}\label{class_shape_lib_1_1_rectangle_ae3bbdf4d53fe95f401657d44744cd33f}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!getP2@{getP2}}
+\index{getP2@{getP2}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{getP2()}{getP2()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_point}{Point}} \& Shape\+Lib\+::\+Rectangle\+::get\+P2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return the second point in 2D space, which defines the rectangle. 
+
+\begin{DoxyReturn}{Returns}
+Const reference to the point 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_point}{Point}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_ad58f9b0453f4c6f90978bf4885901d28}\label{class_shape_lib_1_1_rectangle_ad58f9b0453f4c6f90978bf4885901d28}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!getWidth@{getWidth}}
+\index{getWidth@{getWidth}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{getWidth()}{getWidth()}}
+{\footnotesize\ttfamily int Shape\+Lib\+::\+Rectangle\+::get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function returns the current width of the rectangle. If the already calculated width is incorrect(the rectangle points were redefined), the dimensions are recalculated at first. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_rectangle_ab1c0e565e2ca7b6acb545a588ecdf781}{recalculate\+Dim()}} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+current width of the rectangle. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a6525a5596c1c5ffe9fae2e342fc8b6be}\label{class_shape_lib_1_1_rectangle_a6525a5596c1c5ffe9fae2e342fc8b6be}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!printInfo@{printInfo}}
+\index{printInfo@{printInfo}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{printInfo()}{printInfo()}}
+{\footnotesize\ttfamily void Shape\+Lib\+::\+Rectangle\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Virtual function for printing information about the shape into the console. 
+
+
+
+Implements \mbox{\hyperlink{class_shape_lib_1_1_shape_a8fe7ba6176973fb040ce490c60d31465}{Shape\+Lib\+::\+Shape}}.
+
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_ab1c0e565e2ca7b6acb545a588ecdf781}\label{class_shape_lib_1_1_rectangle_ab1c0e565e2ca7b6acb545a588ecdf781}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!recalculateDim@{recalculateDim}}
+\index{recalculateDim@{recalculateDim}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{recalculateDim()}{recalculateDim()}}
+{\footnotesize\ttfamily void Shape\+Lib\+::\+Rectangle\+::recalculate\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Recalculates the rectangle width and height. 
+
+Based on p1 and p2 this function recalculates the rectangle width and height and store it in internal temporary variables. \begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a76fedbe3b3568ffcf6485985ae0ea619}{width}} 
+
+\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a27484a4a1bf76ff9bef73da5ac03ca87}{height}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_adae6e5ad307a71bc3a7c7c1c42e3067d}\label{class_shape_lib_1_1_rectangle_adae6e5ad307a71bc3a7c7c1c42e3067d}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!setP1@{setP1}}
+\index{setP1@{setP1}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{setP1()}{setP1()}}
+{\footnotesize\ttfamily void Shape\+Lib\+::\+Rectangle\+::set\+P1 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point}{Point}} \&}]{p1 }\end{DoxyParamCaption})}
+
+
+
+Setter for the first point of the rectangle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & point defining the rectangle. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a1c2ab381c5d49609414540ac951d17db}\label{class_shape_lib_1_1_rectangle_a1c2ab381c5d49609414540ac951d17db}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!setP2@{setP2}}
+\index{setP2@{setP2}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{setP2()}{setP2()}}
+{\footnotesize\ttfamily void Shape\+Lib\+::\+Rectangle\+::set\+P2 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point}{Point}} \&}]{p2 }\end{DoxyParamCaption})}
+
+
+
+Setter for the second point of the rectangle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p2} & point defining the rectangle. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a3069e6caf788ce55118a8f595af50f14}\label{class_shape_lib_1_1_rectangle_a3069e6caf788ce55118a8f595af50f14}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!dimValid@{dimValid}}
+\index{dimValid@{dimValid}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{dimValid}{dimValid}}
+{\footnotesize\ttfamily bool Shape\+Lib\+::\+Rectangle\+::dim\+Valid = false\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+
+
+Information if width and height is correct or not. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_rectangle_ab1c0e565e2ca7b6acb545a588ecdf781}{recalculate\+Dim()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a27484a4a1bf76ff9bef73da5ac03ca87}\label{class_shape_lib_1_1_rectangle_a27484a4a1bf76ff9bef73da5ac03ca87}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!height@{height}}
+\index{height@{height}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{height}{height}}
+{\footnotesize\ttfamily int Shape\+Lib\+::\+Rectangle\+::height\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+
+
+Temporary storage of rectangle height. Don\textquotesingle{}t have to be correct!!!! 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a3069e6caf788ce55118a8f595af50f14}{dim\+Valid}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}\label{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!p1@{p1}}
+\index{p1@{p1}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{p1}{p1}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Shape\+Lib\+::\+Rectangle\+::p1\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}\label{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!p2@{p2}}
+\index{p2@{p2}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{p2}{p2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Shape\+Lib\+::\+Rectangle\+::p2\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The first point in 2D space. 
+
+\texorpdfstring{$<$}{<}
+
+The second point in 2D space \mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a76fedbe3b3568ffcf6485985ae0ea619}\label{class_shape_lib_1_1_rectangle_a76fedbe3b3568ffcf6485985ae0ea619}} 
+\index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!width@{width}}
+\index{width@{width}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
+\doxysubsubsection{\texorpdfstring{width}{width}}
+{\footnotesize\ttfamily int Shape\+Lib\+::\+Rectangle\+::width\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+
+
+Temporary storage of rectangle width. Don\textquotesingle{}t have to be correct!!!! 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a3069e6caf788ce55118a8f595af50f14}{dim\+Valid}} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/peterjanku/\+Sources\+Cpp/\+AK5\+PC\+\_\+\+Shape2\+D/\+Shape\+Lib/include/\mbox{\hyperlink{rectangle_8h}{rectangle.\+h}}\item 
+/\+Users/peterjanku/\+Sources\+Cpp/\+AK5\+PC\+\_\+\+Shape2\+D/\+Shape\+Lib/src/\mbox{\hyperlink{rectangle_8cpp}{rectangle.\+cpp}}\end{DoxyCompactItemize}

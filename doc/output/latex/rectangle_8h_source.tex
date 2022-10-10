@@ -1,0 +1,58 @@
+\hypertarget{rectangle_8h_source}{}\doxysection{rectangle.\+h}
+\label{rectangle_8h_source}\index{/Users/peterjanku/SourcesCpp/AK5PC\_Shape2D/ShapeLib/include/rectangle.h@{/Users/peterjanku/SourcesCpp/AK5PC\_Shape2D/ShapeLib/include/rectangle.h}}
+\mbox{\hyperlink{rectangle_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by Peter Janků on 08.10.2022.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef SHAPE2D\_RECTANGLE\_H}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define SHAPE2D\_RECTANGLE\_H}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{shape_8h}{shape.h}}"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{point_8h}{point.h}}"{}}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_shape_lib}{ShapeLib}} \{}
+\DoxyCodeLine{16     \textcolor{keyword}{class }\mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}} : \textcolor{keyword}{public} \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}} \{}
+\DoxyCodeLine{17     \textcolor{keyword}{public}:}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{29         \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0dddab55be39b94262a49add32e4e630}{Rectangle}}(\textcolor{keywordtype}{int} \textcolor{keywordtype}{id}, \textcolor{keywordtype}{int} x1, \textcolor{keywordtype}{int} y1, \textcolor{keywordtype}{int} x2, \textcolor{keywordtype}{int} y2) : \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}}(id, \mbox{\hyperlink{class_point}{Point}}(x1, y1), \mbox{\hyperlink{class_point}{Point}}(x2, y2)) \{\}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{40         \mbox{\hyperlink{class_shape_lib_1_1_rectangle_ae2d456f1dd6493869fadc2dc40dfa02d}{Rectangle}}(\textcolor{keywordtype}{int} \textcolor{keywordtype}{id}, \textcolor{keyword}{const} \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}{p1}}, \textcolor{keyword}{const} \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}}) : \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}}(id), \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}{p1}}(\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}{p1}}), \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}}(\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}}) \{ \mbox{\hyperlink{class_shape_lib_1_1_rectangle_ab1c0e565e2ca7b6acb545a588ecdf781}{recalculateDim}}(); \}}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a6525a5596c1c5ffe9fae2e342fc8b6be}{printInfo}}() \textcolor{keyword}{const override};}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_ad58f9b0453f4c6f90978bf4885901d28}{getWidth}}();}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a7e797752dbac1aca17683835b10df42e}{getHeight}}();}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{52         \textcolor{keyword}{const} \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a012e150fbb9d383c9b47c31ee1bfb147}{getP1}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}{p1}}; \}}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{58         \textcolor{keyword}{const} \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_ae3bbdf4d53fe95f401657d44744cd33f}{getP2}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}}; \}}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{60     \textcolor{keyword}{protected}:}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_ab1c0e565e2ca7b6acb545a588ecdf781}{recalculateDim}}();}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64         \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}{p1}};}
+\DoxyCodeLine{65     \textcolor{keyword}{public}:}
+\DoxyCodeLine{66         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_adae6e5ad307a71bc3a7c7c1c42e3067d}{setP1}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}{p1}});}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{68         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a1c2ab381c5d49609414540ac951d17db}{setP2}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}});}
+\DoxyCodeLine{69 }
+\DoxyCodeLine{70     \textcolor{keyword}{protected}:}
+\DoxyCodeLine{72         \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}};   }
+\DoxyCodeLine{73         \textcolor{keyword}{mutable} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a76fedbe3b3568ffcf6485985ae0ea619}{width}};  }
+\DoxyCodeLine{74         \textcolor{keyword}{mutable} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a27484a4a1bf76ff9bef73da5ac03ca87}{height}}; }
+\DoxyCodeLine{75         \textcolor{keyword}{mutable} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a3069e6caf788ce55118a8f595af50f14}{dimValid}} = \textcolor{keyword}{false};  }
+\DoxyCodeLine{78     \};}
+\DoxyCodeLine{79 }
+\DoxyCodeLine{80 }
+\DoxyCodeLine{81     std::ostream \&\mbox{\hyperlink{namespace_shape_lib_a8207d0f049bcc60b1c53d855e06bd8ea}{operator<<}}(std::ostream \&stream, \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}} \&rect);}
+\DoxyCodeLine{82 \}}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//SHAPE2D\_RECTANGLE\_H}}
+
+\end{DoxyCode}
