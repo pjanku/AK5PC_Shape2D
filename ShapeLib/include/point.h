@@ -5,28 +5,29 @@
 #ifndef SHAPE2D_POINT_H
 #define SHAPE2D_POINT_H
 
-/**
- * @brief Simple class representing one point in cartesian coordinates
- */
-class Point {
-public:
-
+namespace ShapeLib {
     /**
-     * @brief First parametric constructor
-     *
-     * Because at least one parametric constructor is created, the compiler doesn't create the default constructor.
-     * @param x coordinate
-     * @param y coordinate
+     * @brief Simple class representing one point in cartesian coordinates
      */
-    Point(int x, int y) : x(x), y(y) {}
+    class Point {
+    public:
 
-    static int horizontalDistance(const Point &p1, const Point &p2);
+        /**
+         * @brief First parametric constructor
+         *
+         * Because at least one parametric constructor is created, the compiler doesn't create the default constructor.
+         * @param x coordinate
+         * @param y coordinate
+         */
+        Point(int x, int y) : x(x), y(y) {}
 
-    static int verticalDistance(const Point &p1, const Point &p2);
+        static int horizontalDistance(const Point &p1, const Point &p2);
 
-    int x; /**< @brief coordinate X */
-    int y; /**< @brief coordinate Y */
-};
+        static int verticalDistance(const Point &p1, const Point &p2);
 
+        int x; /**< @brief coordinate X */
+        int y; /**< @brief coordinate Y */
+    };
+}
 
 #endif //SHAPE2D_POINT_H

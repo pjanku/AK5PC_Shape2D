@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['horizontaldistance_0',['horizontalDistance',['../class_point.html#ac4b315f8a31acc890dd6e4e005499248',1,'Point']]]
+  ['horizontaldistance_0',['horizontalDistance',['../class_shape_lib_1_1_point.html#a8c30de6686319839634f049e0d6e49c2',1,'ShapeLib::Point']]]
 ];

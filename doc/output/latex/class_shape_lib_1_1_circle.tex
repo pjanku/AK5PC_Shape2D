@@ -20,15 +20,15 @@ Inheritance diagram for Shape\+Lib\+::Circle\+:\begin{figure}[H]
 \item 
 \mbox{\hyperlink{class_shape_lib_1_1_circle_a737945ccbf553d3fd62f3182ecbb7b7d}{Circle}} (int \mbox{\hyperlink{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}{ID}}, int centerX, int centerY, int \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}})
 \begin{DoxyCompactList}\small\item\em The circle constructor. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{class_shape_lib_1_1_circle_a92c775060bcfa7709baec212a065c5af}{Circle}} (int \mbox{\hyperlink{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}{ID}}, const \mbox{\hyperlink{class_point}{Point}} \&center, int \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}})
+\mbox{\hyperlink{class_shape_lib_1_1_circle_a92c775060bcfa7709baec212a065c5af}{Circle}} (int \mbox{\hyperlink{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}{ID}}, const \mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} \&center, int \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}})
 \begin{DoxyCompactList}\small\item\em The circle constructor. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_shape_lib_1_1_circle_ad3171819be20f0c0d8be585a786bfa8c}{set\+Center\+Point}} (const \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}{center\+Point}})
+void \mbox{\hyperlink{class_shape_lib_1_1_circle_ad3171819be20f0c0d8be585a786bfa8c}{set\+Center\+Point}} (const \mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}{center\+Point}})
 \begin{DoxyCompactList}\small\item\em Setter for the center point. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_shape_lib_1_1_circle_a65a1d90108ae4fbc7437da8fa32c0b9c}{set\+Radius}} (int \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}})
 \begin{DoxyCompactList}\small\item\em Setter for the radius. It also invalidate internal dimensions. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_shape_lib_1_1_circle_aa569e2951df99fdc6d5806dda830c954}{print\+Info}} () const override
 \begin{DoxyCompactList}\small\item\em Print out tha basic circle info (center point and radius) \end{DoxyCompactList}\item 
-const \mbox{\hyperlink{class_point}{Point}} \& \mbox{\hyperlink{class_shape_lib_1_1_circle_a49dbdd22f4e2180e5e3aa1625654f9f9}{get\+Center\+Point}} () const
+const \mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} \& \mbox{\hyperlink{class_shape_lib_1_1_circle_a49dbdd22f4e2180e5e3aa1625654f9f9}{get\+Center\+Point}} () const
 \begin{DoxyCompactList}\small\item\em Getter for the center point. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_shape_lib_1_1_circle_a00d26b180d5314404490f52c80bb8d77}{get\+Radius}} () const
 \begin{DoxyCompactList}\small\item\em Getter for the radius dimension. \end{DoxyCompactList}\item 
@@ -44,8 +44,8 @@ void \mbox{\hyperlink{class_shape_lib_1_1_circle_a72dc2990ed0f054fd113cfa1820e09
 \doxysubsection*{Protected Attributes}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}{center\+Point}}
-\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_point}{Point}} defining the center of the circle. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} \mbox{\hyperlink{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}{center\+Point}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} defining the center of the circle. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}}
 \begin{DoxyCompactList}\small\item\em Dimension of circle radius. \end{DoxyCompactList}\item 
 double \mbox{\hyperlink{class_shape_lib_1_1_circle_a04b6e961f2f8b9550a5af1e3db33177c}{border\+Length}} = 0
@@ -87,7 +87,7 @@ This constructor is calling the second one with modified parameters. This can be
 \index{ShapeLib::Circle@{ShapeLib::Circle}!Circle@{Circle}}
 \index{Circle@{Circle}!ShapeLib::Circle@{ShapeLib::Circle}}
 \doxysubsubsection{\texorpdfstring{Circle()}{Circle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily Shape\+Lib\+::\+Circle\+::\+Circle (\begin{DoxyParamCaption}\item[{int}]{ID,  }\item[{const \mbox{\hyperlink{class_point}{Point}} \&}]{center,  }\item[{int}]{radius }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+{\footnotesize\ttfamily Shape\+Lib\+::\+Circle\+::\+Circle (\begin{DoxyParamCaption}\item[{int}]{ID,  }\item[{const \mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} \&}]{center,  }\item[{int}]{radius }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
 
@@ -104,7 +104,7 @@ This constructor stores all \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}
 \hline
 \end{DoxyParams}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{class_point}{Point}} 
+\mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} 
 \end{DoxySeeAlso}
 
 \begin{DoxyParams}{Parameters}
@@ -134,7 +134,7 @@ current length of circle border.
 \index{ShapeLib::Circle@{ShapeLib::Circle}!getCenterPoint@{getCenterPoint}}
 \index{getCenterPoint@{getCenterPoint}!ShapeLib::Circle@{ShapeLib::Circle}}
 \doxysubsubsection{\texorpdfstring{getCenterPoint()}{getCenterPoint()}}
-{\footnotesize\ttfamily const \mbox{\hyperlink{class_point}{Point}} \& Shape\+Lib\+::\+Circle\+::get\+Center\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} \& Shape\+Lib\+::\+Circle\+::get\+Center\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 
 
@@ -205,7 +205,7 @@ Based on radiusthis function recalculates the circle are volume and border lengh
 \index{ShapeLib::Circle@{ShapeLib::Circle}!setCenterPoint@{setCenterPoint}}
 \index{setCenterPoint@{setCenterPoint}!ShapeLib::Circle@{ShapeLib::Circle}}
 \doxysubsubsection{\texorpdfstring{setCenterPoint()}{setCenterPoint()}}
-{\footnotesize\ttfamily void Shape\+Lib\+::\+Circle\+::set\+Center\+Point (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point}{Point}} \&}]{center\+Point }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void Shape\+Lib\+::\+Circle\+::set\+Center\+Point (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} \&}]{center\+Point }\end{DoxyParamCaption})}
 
 
 
@@ -213,7 +213,7 @@ Setter for the center point.
 
 
 \begin{DoxyParams}{Parameters}
-{\em center\+Point} & \mbox{\hyperlink{class_point}{Point}} defining the circle center \\
+{\em center\+Point} & \mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} defining the circle center \\
 \hline
 \end{DoxyParams}
 \mbox{\Hypertarget{class_shape_lib_1_1_circle_a65a1d90108ae4fbc7437da8fa32c0b9c}\label{class_shape_lib_1_1_circle_a65a1d90108ae4fbc7437da8fa32c0b9c}} 
@@ -251,11 +251,11 @@ Temporary storage of circle border length. Don\textquotesingle{}t have to be cor
 \index{ShapeLib::Circle@{ShapeLib::Circle}!centerPoint@{centerPoint}}
 \index{centerPoint@{centerPoint}!ShapeLib::Circle@{ShapeLib::Circle}}
 \doxysubsubsection{\texorpdfstring{centerPoint}{centerPoint}}
-{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Shape\+Lib\+::\+Circle\+::center\+Point\hspace{0.3cm}{\ttfamily [protected]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} Shape\+Lib\+::\+Circle\+::center\+Point\hspace{0.3cm}{\ttfamily [protected]}}
 
 
 
-\mbox{\hyperlink{class_point}{Point}} defining the center of the circle. 
+\mbox{\hyperlink{class_shape_lib_1_1_point}{Point}} defining the center of the circle. 
 
 \mbox{\Hypertarget{class_shape_lib_1_1_circle_ae7b91a364dc0be7a82f39e88b35cc888}\label{class_shape_lib_1_1_circle_ae7b91a364dc0be7a82f39e88b35cc888}} 
 \index{ShapeLib::Circle@{ShapeLib::Circle}!circleVolume@{circleVolume}}
