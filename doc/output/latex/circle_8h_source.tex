@@ -1,0 +1,56 @@
+\hypertarget{circle_8h_source}{}\doxysection{circle.\+h}
+\label{circle_8h_source}\index{circle.h@{circle.h}}
+\mbox{\hyperlink{circle_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by Peter Janků on 10.10.2022.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef SHAPE2D\_CIRCLE\_H}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define SHAPE2D\_CIRCLE\_H}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{shape_8h}{shape.h}}"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{point_8h}{point.h}}"{}}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_shape_lib}{ShapeLib}} \{}
+\DoxyCodeLine{17     \textcolor{keyword}{class }\mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}} : \textcolor{keyword}{public} \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}} \{}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19     \textcolor{keyword}{public}:}
+\DoxyCodeLine{29         \mbox{\hyperlink{class_shape_lib_1_1_circle_a737945ccbf553d3fd62f3182ecbb7b7d}{Circle}}(\textcolor{keywordtype}{int} \mbox{\hyperlink{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}{ID}}, \textcolor{keywordtype}{int} centerX, \textcolor{keywordtype}{int} centerY, \textcolor{keywordtype}{int} \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}}) : \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}}(\mbox{\hyperlink{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}{ID}}, \mbox{\hyperlink{class_point}{Point}}(centerX, centerY), \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}}) \{\}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{41         \mbox{\hyperlink{class_shape_lib_1_1_circle_a92c775060bcfa7709baec212a065c5af}{Circle}}(\textcolor{keywordtype}{int} \mbox{\hyperlink{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}{ID}}, \textcolor{keyword}{const} \mbox{\hyperlink{class_point}{Point}} \&center, \textcolor{keywordtype}{int} \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}}) : \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}}(\mbox{\hyperlink{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}{ID}}), \mbox{\hyperlink{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}{centerPoint}}(center), \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}}(\mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}}) \{\}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_shape_lib_1_1_circle_ad3171819be20f0c0d8be585a786bfa8c}{setCenterPoint}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}{centerPoint}});}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_shape_lib_1_1_circle_a65a1d90108ae4fbc7437da8fa32c0b9c}{setRadius}}(\textcolor{keywordtype}{int} \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}});}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_shape_lib_1_1_circle_aa569e2951df99fdc6d5806dda830c954}{printInfo}}() \textcolor{keyword}{const override};}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{53         \textcolor{keyword}{const} \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_circle_a49dbdd22f4e2180e5e3aa1625654f9f9}{getCenterPoint}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{54             \textcolor{keywordflow}{return} \mbox{\hyperlink{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}{centerPoint}};}
+\DoxyCodeLine{55         \}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{61         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_shape_lib_1_1_circle_a00d26b180d5314404490f52c80bb8d77}{getRadius}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{62             \textcolor{keywordflow}{return} \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}};}
+\DoxyCodeLine{63         \}}
+\DoxyCodeLine{64         \textcolor{keywordtype}{double} \mbox{\hyperlink{class_shape_lib_1_1_circle_a9cec6f4ee5a0b53003b834de8450195c}{getBorderLength}}();}
+\DoxyCodeLine{65         \textcolor{keywordtype}{double} \mbox{\hyperlink{class_shape_lib_1_1_circle_abb5355e10a1dc6d6721700074e917518}{getCircleVolume}}();}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67     \textcolor{keyword}{protected}:}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_shape_lib_1_1_circle_a72dc2990ed0f054fd113cfa1820e093a}{recalculateDim}}();}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71         \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}{centerPoint}};  }
+\DoxyCodeLine{72         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}}; }
+\DoxyCodeLine{73         \textcolor{keywordtype}{double} \mbox{\hyperlink{class_shape_lib_1_1_circle_a04b6e961f2f8b9550a5af1e3db33177c}{borderLength}} = 0; }
+\DoxyCodeLine{74         \textcolor{keywordtype}{double} \mbox{\hyperlink{class_shape_lib_1_1_circle_ae7b91a364dc0be7a82f39e88b35cc888}{circleVolume}} = 0; }
+\DoxyCodeLine{75         \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_shape_lib_1_1_circle_a300382f6bae79a9b89ff5ef638175a54}{dimsValid}} = \textcolor{keyword}{false};  }
+\DoxyCodeLine{76     \};}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{78     std::ostream \&\mbox{\hyperlink{namespace_shape_lib_a7fb5c4d3c706634aec9194930d3a1c3b}{operator<<}}(std::ostream \&stream, \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}} \&circle);}
+\DoxyCodeLine{79 }
+\DoxyCodeLine{80 \} \textcolor{comment}{// ShapeLib}}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//SHAPE2D\_CIRCLE\_H}}
+
+\end{DoxyCode}

@@ -3,6 +3,8 @@
 \doxysubsection*{Classes}
 \begin{DoxyCompactItemize}
 \item 
+class \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}}
+\begin{DoxyCompactList}\small\item\em Simple class representing one \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}}. \end{DoxyCompactList}\item 
 class \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}}
 \begin{DoxyCompactList}\small\item\em Simple class representing a rectangle defined by two points. \end{DoxyCompactList}\item 
 class \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}}
@@ -10,14 +12,50 @@ class \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}}
 \doxysubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
+std\+::ostream \& \mbox{\hyperlink{namespace_shape_lib_a7fb5c4d3c706634aec9194930d3a1c3b}{operator$<$$<$}} (std\+::ostream \&stream, \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}} \&circle)
+\begin{DoxyCompactList}\small\item\em Stream operator for \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}} class. \end{DoxyCompactList}\item 
 std\+::ostream \& \mbox{\hyperlink{namespace_shape_lib_a8207d0f049bcc60b1c53d855e06bd8ea}{operator$<$$<$}} (std\+::ostream \&stream, \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}} \&rect)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Stream operator for \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespace_shape_lib_a7fb5c4d3c706634aec9194930d3a1c3b}\label{namespace_shape_lib_a7fb5c4d3c706634aec9194930d3a1c3b}} 
+\index{ShapeLib@{ShapeLib}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ShapeLib@{ShapeLib}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::ostream \& Shape\+Lib\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{stream,  }\item[{\mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}} \&}]{circle }\end{DoxyParamCaption})}
+
+
+
+Stream operator for \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stream} & output stream \\
+\hline
+{\em circle} & the \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}} object to be printed out \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the original stream 
+\end{DoxyReturn}
 \mbox{\Hypertarget{namespace_shape_lib_a8207d0f049bcc60b1c53d855e06bd8ea}\label{namespace_shape_lib_a8207d0f049bcc60b1c53d855e06bd8ea}} 
 \index{ShapeLib@{ShapeLib}!operator$<$$<$@{operator$<$$<$}}
 \index{operator$<$$<$@{operator$<$$<$}!ShapeLib@{ShapeLib}}
-\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily std\+::ostream \& Shape\+Lib\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{stream,  }\item[{\mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Shape\+Lib\+::\+Rectangle}} \&}]{rect }\end{DoxyParamCaption})}
 
+
+
+Stream operator for \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stream} & output stream \\
+\hline
+{\em rect} & the \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}} object to be printed out \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the original output stream 
+\end{DoxyReturn}

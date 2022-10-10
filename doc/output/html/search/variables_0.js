@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dimvalid_0',['dimValid',['../class_shape_lib_1_1_rectangle.html#a3069e6caf788ce55118a8f595af50f14',1,'ShapeLib::Rectangle']]]
+  ['borderlength_0',['borderLength',['../class_shape_lib_1_1_circle.html#a04b6e961f2f8b9550a5af1e3db33177c',1,'ShapeLib::Circle']]]
 ];

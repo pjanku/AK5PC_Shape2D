@@ -32,10 +32,10 @@ namespace ShapeLib {
          * @brief The main rectangle constructor
          *
          * This constructor stores all Rectangle's internal members as well as members defined in Shape class. It also calls constructor of Shape class.
-         * Finally, it recalculates the value dimensions of the rectangle. @sa recalculateDim()
-         * @param id
-         * @param p1
-         * @param p2
+         * Finally, it recalculates the dimensions of the rectangle. @sa recalculateDim()
+         * @param id Rectangle ID
+         * @param p1 First point defining the rectangle.
+         * @param p2 Second point defining the rectangle.
          */
         Rectangle(int id, const Point &p1, const Point &p2) : Shape(id), p1(p1), p2(p2) { recalculateDim(); }
 
@@ -57,18 +57,14 @@ namespace ShapeLib {
          */
         const Point &getP2() const { return p2; }
 
-    protected:
-
-        void recalculateDim();
-
-        Point p1;
-    public:
         void setP1(const Point &p1);
 
         void setP2(const Point &p2);
 
     protected:
-        /**< @brief The first point in 2D space */
+
+        void recalculateDim();
+        Point p1;   /**< @brief The first point in 2D space */
         Point p2;   /**< @brief The second point in 2D space */
         mutable int width;  /**< @brief Temporary storage of rectangle width. Don't have to be correct!!!! @sa dimValid */
         mutable int height; /**< @brief Temporary storage of rectangle height. Don't have to be correct!!!! @sa dimValid */

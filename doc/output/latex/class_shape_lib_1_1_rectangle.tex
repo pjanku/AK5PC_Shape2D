@@ -23,7 +23,7 @@ Inheritance diagram for Shape\+Lib\+::Rectangle\+:\begin{figure}[H]
 \mbox{\hyperlink{class_shape_lib_1_1_rectangle_ae2d456f1dd6493869fadc2dc40dfa02d}{Rectangle}} (int id, const \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}{p1}}, const \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}})
 \begin{DoxyCompactList}\small\item\em The main rectangle constructor. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a6525a5596c1c5ffe9fae2e342fc8b6be}{print\+Info}} () const override
-\begin{DoxyCompactList}\small\item\em Virtual function for printing information about the shape into the console. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Print out basic rectangle info (ID, P2 and P2) \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_shape_lib_1_1_rectangle_ad58f9b0453f4c6f90978bf4885901d28}{get\+Width}} ()
 \begin{DoxyCompactList}\small\item\em This function returns the current width of the rectangle. If the already calculated width is incorrect(the rectangle points were redefined), the dimensions are recalculated at first. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a7e797752dbac1aca17683835b10df42e}{get\+Height}} ()
@@ -45,9 +45,9 @@ void \mbox{\hyperlink{class_shape_lib_1_1_rectangle_ab1c0e565e2ca7b6acb545a588ec
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a19323031bd89dc9eff815409dd2b7d51}{p1}}
-\item 
-\mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}}
 \begin{DoxyCompactList}\small\item\em The first point in 2D space. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}{p2}}
+\begin{DoxyCompactList}\small\item\em The second point in 2D space. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a76fedbe3b3568ffcf6485985ae0ea619}{width}}
 \begin{DoxyCompactList}\small\item\em Temporary storage of rectangle width. Don\textquotesingle{}t have to be correct!!!! \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_shape_lib_1_1_rectangle_a27484a4a1bf76ff9bef73da5ac03ca87}{height}}
@@ -98,16 +98,16 @@ This constructor is calling the second one with modified parameters. This can be
 
 The main rectangle constructor. 
 
-This constructor stores all \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}}\textquotesingle{}s internal members as well as members defined in \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}} class. It also calls constructor of \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}} class. Finally, it recalculates the value dimensions of the rectangle. \begin{DoxySeeAlso}{See also}
+This constructor stores all \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}}\textquotesingle{}s internal members as well as members defined in \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}} class. It also calls constructor of \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}} class. Finally, it recalculates the dimensions of the rectangle. \begin{DoxySeeAlso}{See also}
 \mbox{\hyperlink{class_shape_lib_1_1_rectangle_ab1c0e565e2ca7b6acb545a588ecdf781}{recalculate\+Dim()}} 
 \end{DoxySeeAlso}
 
 \begin{DoxyParams}{Parameters}
-{\em id} & \\
+{\em id} & \mbox{\hyperlink{class_shape_lib_1_1_rectangle}{Rectangle}} ID \\
 \hline
-{\em p1} & \\
+{\em p1} & First point defining the rectangle. \\
 \hline
-{\em p2} & \\
+{\em p2} & Second point defining the rectangle. \\
 \hline
 \end{DoxyParams}
 
@@ -185,7 +185,7 @@ current width of the rectangle.
 
 
 
-Virtual function for printing information about the shape into the console. 
+Print out basic rectangle info (ID, P2 and P2) 
 
 
 
@@ -271,6 +271,10 @@ Temporary storage of rectangle height. Don\textquotesingle{}t have to be correct
 \doxysubsubsection{\texorpdfstring{p1}{p1}}
 {\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Shape\+Lib\+::\+Rectangle\+::p1\hspace{0.3cm}{\ttfamily [protected]}}
 
+
+
+The first point in 2D space. 
+
 \mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}\label{class_shape_lib_1_1_rectangle_a0c2f3bc4e6b7918f879cdc595ebaf808}} 
 \index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!p2@{p2}}
 \index{p2@{p2}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
@@ -279,11 +283,9 @@ Temporary storage of rectangle height. Don\textquotesingle{}t have to be correct
 
 
 
-The first point in 2D space. 
+The second point in 2D space. 
 
-\texorpdfstring{$<$}{<}
-
-The second point in 2D space \mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a76fedbe3b3568ffcf6485985ae0ea619}\label{class_shape_lib_1_1_rectangle_a76fedbe3b3568ffcf6485985ae0ea619}} 
+\mbox{\Hypertarget{class_shape_lib_1_1_rectangle_a76fedbe3b3568ffcf6485985ae0ea619}\label{class_shape_lib_1_1_rectangle_a76fedbe3b3568ffcf6485985ae0ea619}} 
 \index{ShapeLib::Rectangle@{ShapeLib::Rectangle}!width@{width}}
 \index{width@{width}!ShapeLib::Rectangle@{ShapeLib::Rectangle}}
 \doxysubsubsection{\texorpdfstring{width}{width}}
@@ -300,5 +302,5 @@ Temporary storage of rectangle width. Don\textquotesingle{}t have to be correct!
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/peterjanku/\+Sources\+Cpp/\+AK5\+PC\+\_\+\+Shape2\+D/\+Shape\+Lib/include/\mbox{\hyperlink{rectangle_8h}{rectangle.\+h}}\item 
-/\+Users/peterjanku/\+Sources\+Cpp/\+AK5\+PC\+\_\+\+Shape2\+D/\+Shape\+Lib/src/\mbox{\hyperlink{rectangle_8cpp}{rectangle.\+cpp}}\end{DoxyCompactItemize}
+\mbox{\hyperlink{rectangle_8h}{rectangle.\+h}}\item 
+\mbox{\hyperlink{rectangle_8cpp}{rectangle.\+cpp}}\end{DoxyCompactItemize}

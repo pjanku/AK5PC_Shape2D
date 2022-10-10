@@ -1,65 +1,109 @@
 \@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
-\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Namespace List}{1}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}%
-\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Namespace Documentation}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib Namespace Reference}{9}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Function Documentation}{9}{subsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.1}operator$<$$<$()}{9}{subsubsection.5.1.1.1}%
-\contentsline {chapter}{\numberline {6}Class Documentation}{11}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Point Class Reference}{11}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{11}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Constructor \& Destructor Documentation}{11}{subsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.2.1}Point()}{12}{subsubsection.6.1.2.1}%
-\contentsline {subsection}{\numberline {6.1.3}Member Function Documentation}{13}{subsection.6.1.3}%
-\contentsline {subsubsection}{\numberline {6.1.3.1}horizontalDistance()}{13}{subsubsection.6.1.3.1}%
-\contentsline {subsubsection}{\numberline {6.1.3.2}verticalDistance()}{13}{subsubsection.6.1.3.2}%
-\contentsline {subsection}{\numberline {6.1.4}Member Data Documentation}{14}{subsection.6.1.4}%
-\contentsline {subsubsection}{\numberline {6.1.4.1}x}{14}{subsubsection.6.1.4.1}%
-\contentsline {subsubsection}{\numberline {6.1.4.2}y}{14}{subsubsection.6.1.4.2}%
-\contentsline {section}{\numberline {6.2}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Rectangle Class Reference}{14}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{15}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Constructor \& Destructor Documentation}{15}{subsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.1}Rectangle()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{15}{subsubsection.6.2.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2.2}Rectangle()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{16}{subsubsection.6.2.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Member Function Documentation}{16}{subsection.6.2.3}%
-\contentsline {subsubsection}{\numberline {6.2.3.1}getHeight()}{16}{subsubsection.6.2.3.1}%
-\contentsline {subsubsection}{\numberline {6.2.3.2}getP1()}{17}{subsubsection.6.2.3.2}%
-\contentsline {subsubsection}{\numberline {6.2.3.3}getP2()}{17}{subsubsection.6.2.3.3}%
-\contentsline {subsubsection}{\numberline {6.2.3.4}getWidth()}{18}{subsubsection.6.2.3.4}%
-\contentsline {subsubsection}{\numberline {6.2.3.5}printInfo()}{18}{subsubsection.6.2.3.5}%
-\contentsline {subsubsection}{\numberline {6.2.3.6}recalculateDim()}{18}{subsubsection.6.2.3.6}%
-\contentsline {subsection}{\numberline {6.2.4}Member Data Documentation}{18}{subsection.6.2.4}%
-\contentsline {subsubsection}{\numberline {6.2.4.1}dimValid}{18}{subsubsection.6.2.4.1}%
-\contentsline {subsubsection}{\numberline {6.2.4.2}height}{19}{subsubsection.6.2.4.2}%
-\contentsline {subsubsection}{\numberline {6.2.4.3}p1}{19}{subsubsection.6.2.4.3}%
-\contentsline {subsubsection}{\numberline {6.2.4.4}p2}{19}{subsubsection.6.2.4.4}%
-\contentsline {subsubsection}{\numberline {6.2.4.5}width}{19}{subsubsection.6.2.4.5}%
-\contentsline {section}{\numberline {6.3}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Shape Class Reference}{20}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{20}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Constructor \& Destructor Documentation}{20}{subsection.6.3.2}%
-\contentsline {subsubsection}{\numberline {6.3.2.1}Shape()}{20}{subsubsection.6.3.2.1}%
-\contentsline {subsection}{\numberline {6.3.3}Member Function Documentation}{20}{subsection.6.3.3}%
-\contentsline {subsubsection}{\numberline {6.3.3.1}getID()}{21}{subsubsection.6.3.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.3.2}printInfo()}{21}{subsubsection.6.3.3.2}%
-\contentsline {subsection}{\numberline {6.3.4}Member Data Documentation}{21}{subsection.6.3.4}%
-\contentsline {subsubsection}{\numberline {6.3.4.1}ID}{21}{subsubsection.6.3.4.1}%
-\contentsline {chapter}{\numberline {7}File Documentation}{23}{chapter.7}%
-\contentsline {section}{\numberline {7.1}/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/peterjanku/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sources\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cpp/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AK5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib/include/point.h File Reference}{23}{section.7.1}%
-\contentsline {section}{\numberline {7.2}point.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{23}{section.7.2}%
-\contentsline {section}{\numberline {7.3}/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/peterjanku/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sources\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cpp/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AK5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib/include/rectangle.h File Reference}{23}{section.7.3}%
-\contentsline {section}{\numberline {7.4}rectangle.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{24}{section.7.4}%
-\contentsline {section}{\numberline {7.5}/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/peterjanku/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sources\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cpp/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AK5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib/include/shape.h File Reference}{25}{section.7.5}%
-\contentsline {section}{\numberline {7.6}shape.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{25}{section.7.6}%
-\contentsline {section}{\numberline {7.7}/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/peterjanku/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sources\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cpp/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AK5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib/src/point.cpp File Reference}{25}{section.7.7}%
-\contentsline {section}{\numberline {7.8}point.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{26}{section.7.8}%
-\contentsline {section}{\numberline {7.9}/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/peterjanku/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sources\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cpp/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AK5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib/src/rectangle.cpp File Reference}{26}{section.7.9}%
-\contentsline {section}{\numberline {7.10}rectangle.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{26}{section.7.10}%
-\contentsline {section}{\numberline {7.11}/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/peterjanku/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sources\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cpp/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AK5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape2\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib/src/shape.cpp File Reference}{27}{section.7.11}%
-\contentsline {section}{\numberline {7.12}shape.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{27}{section.7.12}%
-\contentsline {chapter}{Index}{29}{section*.20}%
+\contentsline {chapter}{\numberline {1}AK5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PC -\/ Shape 2D}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}LICENSE}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Namespace Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Namespace List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Hierarchical Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Class Hierarchy}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Class Index}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Class List}{9}{section.5.1}%
+\contentsline {chapter}{\numberline {6}File Index}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}File List}{11}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Namespace Documentation}{13}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib Namespace Reference}{13}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Function Documentation}{13}{subsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.1.1}operator$<$$<$()}{13}{subsubsection.7.1.1.1}%
+\contentsline {chapter}{\numberline {8}Class Documentation}{15}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Point Class Reference}{15}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Detailed Description}{15}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Constructor \& Destructor Documentation}{16}{subsection.8.1.2}%
+\contentsline {subsubsection}{\numberline {8.1.2.1}Point()}{16}{subsubsection.8.1.2.1}%
+\contentsline {subsection}{\numberline {8.1.3}Member Function Documentation}{16}{subsection.8.1.3}%
+\contentsline {subsubsection}{\numberline {8.1.3.1}horizontalDistance()}{16}{subsubsection.8.1.3.1}%
+\contentsline {subsubsection}{\numberline {8.1.3.2}verticalDistance()}{17}{subsubsection.8.1.3.2}%
+\contentsline {subsection}{\numberline {8.1.4}Member Data Documentation}{17}{subsection.8.1.4}%
+\contentsline {subsubsection}{\numberline {8.1.4.1}x}{17}{subsubsection.8.1.4.1}%
+\contentsline {subsubsection}{\numberline {8.1.4.2}y}{17}{subsubsection.8.1.4.2}%
+\contentsline {section}{\numberline {8.2}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Rectangle Class Reference}{18}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Detailed Description}{19}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Constructor \& Destructor Documentation}{19}{subsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.2.1}Rectangle()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{19}{subsubsection.8.2.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2.2}Rectangle()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{19}{subsubsection.8.2.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Member Function Documentation}{20}{subsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.3.1}getHeight()}{20}{subsubsection.8.2.3.1}%
+\contentsline {subsubsection}{\numberline {8.2.3.2}getP1()}{20}{subsubsection.8.2.3.2}%
+\contentsline {subsubsection}{\numberline {8.2.3.3}getP2()}{21}{subsubsection.8.2.3.3}%
+\contentsline {subsubsection}{\numberline {8.2.3.4}getWidth()}{21}{subsubsection.8.2.3.4}%
+\contentsline {subsubsection}{\numberline {8.2.3.5}printInfo()}{21}{subsubsection.8.2.3.5}%
+\contentsline {subsubsection}{\numberline {8.2.3.6}recalculateDim()}{21}{subsubsection.8.2.3.6}%
+\contentsline {subsubsection}{\numberline {8.2.3.7}setP1()}{21}{subsubsection.8.2.3.7}%
+\contentsline {subsubsection}{\numberline {8.2.3.8}setP2()}{22}{subsubsection.8.2.3.8}%
+\contentsline {subsection}{\numberline {8.2.4}Member Data Documentation}{22}{subsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.4.1}dimValid}{22}{subsubsection.8.2.4.1}%
+\contentsline {subsubsection}{\numberline {8.2.4.2}height}{22}{subsubsection.8.2.4.2}%
+\contentsline {subsubsection}{\numberline {8.2.4.3}p1}{23}{subsubsection.8.2.4.3}%
+\contentsline {subsubsection}{\numberline {8.2.4.4}p2}{23}{subsubsection.8.2.4.4}%
+\contentsline {subsubsection}{\numberline {8.2.4.5}width}{23}{subsubsection.8.2.4.5}%
+\contentsline {section}{\numberline {8.3}Shape\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lib\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Shape Class Reference}{23}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Detailed Description}{24}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Constructor \& Destructor Documentation}{24}{subsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.2.1}Shape()}{24}{subsubsection.8.3.2.1}%
+\contentsline {subsection}{\numberline {8.3.3}Member Function Documentation}{24}{subsection.8.3.3}%
+\contentsline {subsubsection}{\numberline {8.3.3.1}getID()}{24}{subsubsection.8.3.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.3.2}printInfo()}{25}{subsubsection.8.3.3.2}%
+\contentsline {subsection}{\numberline {8.3.4}Member Data Documentation}{25}{subsection.8.3.4}%
+\contentsline {subsubsection}{\numberline {8.3.4.1}ID}{25}{subsubsection.8.3.4.1}%
+\contentsline {chapter}{\numberline {9}File Documentation}{27}{chapter.9}%
+\contentsline {section}{\numberline {9.1}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CCompiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c File Reference}{27}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Macro Definition Documentation}{27}{subsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.1.1}\_\_has\_include}{28}{subsubsection.9.1.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.1.2}ARCHITECTURE\_ID}{28}{subsubsection.9.1.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.1.3}C\_VERSION}{28}{subsubsection.9.1.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.1.4}COMPILER\_ID}{28}{subsubsection.9.1.1.4}%
+\contentsline {subsubsection}{\numberline {9.1.1.5}DEC}{28}{subsubsection.9.1.1.5}%
+\contentsline {subsubsection}{\numberline {9.1.1.6}HEX}{28}{subsubsection.9.1.1.6}%
+\contentsline {subsubsection}{\numberline {9.1.1.7}PLATFORM\_ID}{29}{subsubsection.9.1.1.7}%
+\contentsline {subsubsection}{\numberline {9.1.1.8}STRINGIFY}{29}{subsubsection.9.1.1.8}%
+\contentsline {subsubsection}{\numberline {9.1.1.9}STRINGIFY\_HELPER}{29}{subsubsection.9.1.1.9}%
+\contentsline {subsection}{\numberline {9.1.2}Function Documentation}{29}{subsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.2.1}main()}{29}{subsubsection.9.1.2.1}%
+\contentsline {subsection}{\numberline {9.1.3}Variable Documentation}{29}{subsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.3.1}info\_arch}{29}{subsubsection.9.1.3.1}%
+\contentsline {subsubsection}{\numberline {9.1.3.2}info\_compiler}{29}{subsubsection.9.1.3.2}%
+\contentsline {subsubsection}{\numberline {9.1.3.3}info\_language\_extensions\_default}{30}{subsubsection.9.1.3.3}%
+\contentsline {subsubsection}{\numberline {9.1.3.4}info\_language\_standard\_default}{30}{subsubsection.9.1.3.4}%
+\contentsline {subsubsection}{\numberline {9.1.3.5}info\_platform}{30}{subsubsection.9.1.3.5}%
+\contentsline {section}{\numberline {9.2}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXXCompiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{30}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Macro Definition Documentation}{31}{subsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.1.1}\_\_has\_include}{31}{subsubsection.9.2.1.1}%
+\contentsline {subsubsection}{\numberline {9.2.1.2}ARCHITECTURE\_ID}{31}{subsubsection.9.2.1.2}%
+\contentsline {subsubsection}{\numberline {9.2.1.3}COMPILER\_ID}{31}{subsubsection.9.2.1.3}%
+\contentsline {subsubsection}{\numberline {9.2.1.4}CXX\_STD}{31}{subsubsection.9.2.1.4}%
+\contentsline {subsubsection}{\numberline {9.2.1.5}DEC}{31}{subsubsection.9.2.1.5}%
+\contentsline {subsubsection}{\numberline {9.2.1.6}HEX}{32}{subsubsection.9.2.1.6}%
+\contentsline {subsubsection}{\numberline {9.2.1.7}PLATFORM\_ID}{32}{subsubsection.9.2.1.7}%
+\contentsline {subsubsection}{\numberline {9.2.1.8}STRINGIFY}{32}{subsubsection.9.2.1.8}%
+\contentsline {subsubsection}{\numberline {9.2.1.9}STRINGIFY\_HELPER}{32}{subsubsection.9.2.1.9}%
+\contentsline {subsection}{\numberline {9.2.2}Function Documentation}{32}{subsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.2.1}main()}{32}{subsubsection.9.2.2.1}%
+\contentsline {subsection}{\numberline {9.2.3}Variable Documentation}{32}{subsection.9.2.3}%
+\contentsline {subsubsection}{\numberline {9.2.3.1}info\_arch}{33}{subsubsection.9.2.3.1}%
+\contentsline {subsubsection}{\numberline {9.2.3.2}info\_compiler}{33}{subsubsection.9.2.3.2}%
+\contentsline {subsubsection}{\numberline {9.2.3.3}info\_language\_extensions\_default}{33}{subsubsection.9.2.3.3}%
+\contentsline {subsubsection}{\numberline {9.2.3.4}info\_language\_standard\_default}{33}{subsubsection.9.2.3.4}%
+\contentsline {subsubsection}{\numberline {9.2.3.5}info\_platform}{33}{subsubsection.9.2.3.5}%
+\contentsline {section}{\numberline {9.3}LICENSE.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MD File Reference}{33}{section.9.3}%
+\contentsline {section}{\numberline {9.4}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{33}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Function Documentation}{34}{subsection.9.4.1}%
+\contentsline {subsubsection}{\numberline {9.4.1.1}main()}{34}{subsubsection.9.4.1.1}%
+\contentsline {section}{\numberline {9.5}README.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{34}{section.9.5}%
+\contentsline {section}{\numberline {9.6}point.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{34}{section.9.6}%
+\contentsline {section}{\numberline {9.7}point.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{34}{section.9.7}%
+\contentsline {section}{\numberline {9.8}rectangle.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{34}{section.9.8}%
+\contentsline {section}{\numberline {9.9}rectangle.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{35}{section.9.9}%
+\contentsline {section}{\numberline {9.10}shape.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{36}{section.9.10}%
+\contentsline {section}{\numberline {9.11}shape.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{36}{section.9.11}%
+\contentsline {section}{\numberline {9.12}point.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{36}{section.9.12}%
+\contentsline {section}{\numberline {9.13}rectangle.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{36}{section.9.13}%
+\contentsline {section}{\numberline {9.14}shape.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{37}{section.9.14}%
+\contentsline {chapter}{Index}{39}{section*.27}%

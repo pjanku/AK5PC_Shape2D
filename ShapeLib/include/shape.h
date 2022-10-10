@@ -17,7 +17,7 @@ namespace ShapeLib {
     public:
 
         /**
-         * @brieaf Constructor of Shape class
+         * @brief Constructor of Shape class
          * @param id an ID of the shape
          */
         explicit Shape(int id) : ID(id) {}

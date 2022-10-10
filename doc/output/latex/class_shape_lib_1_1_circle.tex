@@ -1,0 +1,301 @@
+\hypertarget{class_shape_lib_1_1_circle}{}\doxysection{Shape\+Lib\+::Circle Class Reference}
+\label{class_shape_lib_1_1_circle}\index{ShapeLib::Circle@{ShapeLib::Circle}}
+
+
+Simple class representing one \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}}.  
+
+
+
+
+{\ttfamily \#include $<$circle.\+h$>$}
+
+Inheritance diagram for Shape\+Lib\+::Circle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_shape_lib_1_1_circle}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_shape_lib_1_1_circle_a737945ccbf553d3fd62f3182ecbb7b7d}{Circle}} (int \mbox{\hyperlink{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}{ID}}, int centerX, int centerY, int \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}})
+\begin{DoxyCompactList}\small\item\em The circle constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_shape_lib_1_1_circle_a92c775060bcfa7709baec212a065c5af}{Circle}} (int \mbox{\hyperlink{class_shape_lib_1_1_shape_a3a0eabd62d9ffe69b40fbbf2494de936}{ID}}, const \mbox{\hyperlink{class_point}{Point}} \&center, int \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}})
+\begin{DoxyCompactList}\small\item\em The circle constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_shape_lib_1_1_circle_ad3171819be20f0c0d8be585a786bfa8c}{set\+Center\+Point}} (const \mbox{\hyperlink{class_point}{Point}} \&\mbox{\hyperlink{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}{center\+Point}})
+\begin{DoxyCompactList}\small\item\em Setter for the center point. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_shape_lib_1_1_circle_a65a1d90108ae4fbc7437da8fa32c0b9c}{set\+Radius}} (int \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}})
+\begin{DoxyCompactList}\small\item\em Setter for the radius. It also invalidate internal dimensions. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_shape_lib_1_1_circle_aa569e2951df99fdc6d5806dda830c954}{print\+Info}} () const override
+\begin{DoxyCompactList}\small\item\em Print out tha basic circle info (center point and radius) \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{class_point}{Point}} \& \mbox{\hyperlink{class_shape_lib_1_1_circle_a49dbdd22f4e2180e5e3aa1625654f9f9}{get\+Center\+Point}} () const
+\begin{DoxyCompactList}\small\item\em Getter for the center point. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_shape_lib_1_1_circle_a00d26b180d5314404490f52c80bb8d77}{get\+Radius}} () const
+\begin{DoxyCompactList}\small\item\em Getter for the radius dimension. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_shape_lib_1_1_circle_a9cec6f4ee5a0b53003b834de8450195c}{get\+Border\+Length}} ()
+\begin{DoxyCompactList}\small\item\em This function returns the length of circle border. If the dimension is not valid, it is recalculated at first. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_shape_lib_1_1_circle_abb5355e10a1dc6d6721700074e917518}{get\+Circle\+Volume}} ()
+\begin{DoxyCompactList}\small\item\em this function returns the volume of circle area. If the dimensions is not valid, it is recalculated at first. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_shape_lib_1_1_circle_a72dc2990ed0f054fd113cfa1820e093a}{recalculate\+Dim}} ()
+\begin{DoxyCompactList}\small\item\em Recalculates the circle border length and area volume. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}{center\+Point}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_point}{Point}} defining the center of the circle. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}{radius}}
+\begin{DoxyCompactList}\small\item\em Dimension of circle radius. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_shape_lib_1_1_circle_a04b6e961f2f8b9550a5af1e3db33177c}{border\+Length}} = 0
+\begin{DoxyCompactList}\small\item\em Temporary storage of circle border length. Don\textquotesingle{}t have to be correct!!!! \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_shape_lib_1_1_circle_ae7b91a364dc0be7a82f39e88b35cc888}{circle\+Volume}} = 0
+\begin{DoxyCompactList}\small\item\em Temporary storage of circle area volume. Don\textquotesingle{}t have to be correct!!!! \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_shape_lib_1_1_circle_a300382f6bae79a9b89ff5ef638175a54}{dims\+Valid}} = false
+\begin{DoxyCompactList}\small\item\em Information if circle area volume and border length is valido or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Simple class representing one \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}}. 
+
+The circle is defined by a centre point and radius. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_a737945ccbf553d3fd62f3182ecbb7b7d}\label{class_shape_lib_1_1_circle_a737945ccbf553d3fd62f3182ecbb7b7d}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{Circle()}{Circle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Shape\+Lib\+::\+Circle\+::\+Circle (\begin{DoxyParamCaption}\item[{int}]{ID,  }\item[{int}]{centerX,  }\item[{int}]{centerY,  }\item[{int}]{radius }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The circle constructor. 
+
+This constructor is calling the second one with modified parameters. This can be done since C++11 standard and it\textquotesingle{}s called constructor delegation. 
+\begin{DoxyParams}{Parameters}
+{\em ID} & \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}} ID \\
+\hline
+{\em centerX} & The X coordinate of circle center \\
+\hline
+{\em centerY} & The Y coordinate of circle center \\
+\hline
+{\em radius} & The circle radius \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_a92c775060bcfa7709baec212a065c5af}\label{class_shape_lib_1_1_circle_a92c775060bcfa7709baec212a065c5af}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{Circle()}{Circle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Shape\+Lib\+::\+Circle\+::\+Circle (\begin{DoxyParamCaption}\item[{int}]{ID,  }\item[{const \mbox{\hyperlink{class_point}{Point}} \&}]{center,  }\item[{int}]{radius }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The circle constructor. 
+
+This constructor stores all \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}}\textquotesingle{}s internal members as well as members defined in \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}} class. It also calls constructor of \mbox{\hyperlink{class_shape_lib_1_1_shape}{Shape}} class. Finally, it recalculates the dimensions of the rectangle. \begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_circle_a72dc2990ed0f054fd113cfa1820e093a}{recalculate\+Dim()}} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em ID} & \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}} ID \\
+\hline
+{\em center} & \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}} center point \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_point}{Point}} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em radius} & \mbox{\hyperlink{class_shape_lib_1_1_circle}{Circle}} radius \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_a9cec6f4ee5a0b53003b834de8450195c}\label{class_shape_lib_1_1_circle_a9cec6f4ee5a0b53003b834de8450195c}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!getBorderLength@{getBorderLength}}
+\index{getBorderLength@{getBorderLength}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{getBorderLength()}{getBorderLength()}}
+{\footnotesize\ttfamily double Shape\+Lib\+::\+Circle\+::get\+Border\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function returns the length of circle border. If the dimension is not valid, it is recalculated at first. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_circle_a72dc2990ed0f054fd113cfa1820e093a}{recalculate\+Dim()}} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+current length of circle border. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_a49dbdd22f4e2180e5e3aa1625654f9f9}\label{class_shape_lib_1_1_circle_a49dbdd22f4e2180e5e3aa1625654f9f9}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!getCenterPoint@{getCenterPoint}}
+\index{getCenterPoint@{getCenterPoint}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{getCenterPoint()}{getCenterPoint()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_point}{Point}} \& Shape\+Lib\+::\+Circle\+::get\+Center\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter for the center point. 
+
+\begin{DoxyReturn}{Returns}
+Center point 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_abb5355e10a1dc6d6721700074e917518}\label{class_shape_lib_1_1_circle_abb5355e10a1dc6d6721700074e917518}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!getCircleVolume@{getCircleVolume}}
+\index{getCircleVolume@{getCircleVolume}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{getCircleVolume()}{getCircleVolume()}}
+{\footnotesize\ttfamily double Shape\+Lib\+::\+Circle\+::get\+Circle\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+this function returns the volume of circle area. If the dimensions is not valid, it is recalculated at first. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_circle_a72dc2990ed0f054fd113cfa1820e093a}{recalculate\+Dim()}} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_a00d26b180d5314404490f52c80bb8d77}\label{class_shape_lib_1_1_circle_a00d26b180d5314404490f52c80bb8d77}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!getRadius@{getRadius}}
+\index{getRadius@{getRadius}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{getRadius()}{getRadius()}}
+{\footnotesize\ttfamily int Shape\+Lib\+::\+Circle\+::get\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter for the radius dimension. 
+
+\begin{DoxyReturn}{Returns}
+Size of the circle\textquotesingle{}s radius 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_aa569e2951df99fdc6d5806dda830c954}\label{class_shape_lib_1_1_circle_aa569e2951df99fdc6d5806dda830c954}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!printInfo@{printInfo}}
+\index{printInfo@{printInfo}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{printInfo()}{printInfo()}}
+{\footnotesize\ttfamily void Shape\+Lib\+::\+Circle\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Print out tha basic circle info (center point and radius) 
+
+
+
+Implements \mbox{\hyperlink{class_shape_lib_1_1_shape_a8fe7ba6176973fb040ce490c60d31465}{Shape\+Lib\+::\+Shape}}.
+
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_a72dc2990ed0f054fd113cfa1820e093a}\label{class_shape_lib_1_1_circle_a72dc2990ed0f054fd113cfa1820e093a}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!recalculateDim@{recalculateDim}}
+\index{recalculateDim@{recalculateDim}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{recalculateDim()}{recalculateDim()}}
+{\footnotesize\ttfamily void Shape\+Lib\+::\+Circle\+::recalculate\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Recalculates the circle border length and area volume. 
+
+Based on radiusthis function recalculates the circle are volume and border lenght and store it in internal temporary variables. \begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_circle_a04b6e961f2f8b9550a5af1e3db33177c}{border\+Length}} 
+
+\mbox{\hyperlink{class_shape_lib_1_1_circle_ae7b91a364dc0be7a82f39e88b35cc888}{circle\+Volume}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_ad3171819be20f0c0d8be585a786bfa8c}\label{class_shape_lib_1_1_circle_ad3171819be20f0c0d8be585a786bfa8c}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!setCenterPoint@{setCenterPoint}}
+\index{setCenterPoint@{setCenterPoint}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{setCenterPoint()}{setCenterPoint()}}
+{\footnotesize\ttfamily void Shape\+Lib\+::\+Circle\+::set\+Center\+Point (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point}{Point}} \&}]{center\+Point }\end{DoxyParamCaption})}
+
+
+
+Setter for the center point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+Point} & \mbox{\hyperlink{class_point}{Point}} defining the circle center \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_a65a1d90108ae4fbc7437da8fa32c0b9c}\label{class_shape_lib_1_1_circle_a65a1d90108ae4fbc7437da8fa32c0b9c}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!setRadius@{setRadius}}
+\index{setRadius@{setRadius}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{setRadius()}{setRadius()}}
+{\footnotesize\ttfamily void Shape\+Lib\+::\+Circle\+::set\+Radius (\begin{DoxyParamCaption}\item[{int}]{radius }\end{DoxyParamCaption})}
+
+
+
+Setter for the radius. It also invalidate internal dimensions. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em radius} & the circle radius \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_a04b6e961f2f8b9550a5af1e3db33177c}\label{class_shape_lib_1_1_circle_a04b6e961f2f8b9550a5af1e3db33177c}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!borderLength@{borderLength}}
+\index{borderLength@{borderLength}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{borderLength}{borderLength}}
+{\footnotesize\ttfamily double Shape\+Lib\+::\+Circle\+::border\+Length = 0\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Temporary storage of circle border length. Don\textquotesingle{}t have to be correct!!!! 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_circle_a300382f6bae79a9b89ff5ef638175a54}{dims\+Valid}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}\label{class_shape_lib_1_1_circle_aa314f0396ccadcc8f3a4eff8707d44a9}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!centerPoint@{centerPoint}}
+\index{centerPoint@{centerPoint}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{centerPoint}{centerPoint}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Shape\+Lib\+::\+Circle\+::center\+Point\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\mbox{\hyperlink{class_point}{Point}} defining the center of the circle. 
+
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_ae7b91a364dc0be7a82f39e88b35cc888}\label{class_shape_lib_1_1_circle_ae7b91a364dc0be7a82f39e88b35cc888}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!circleVolume@{circleVolume}}
+\index{circleVolume@{circleVolume}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{circleVolume}{circleVolume}}
+{\footnotesize\ttfamily double Shape\+Lib\+::\+Circle\+::circle\+Volume = 0\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Temporary storage of circle area volume. Don\textquotesingle{}t have to be correct!!!! 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_circle_a300382f6bae79a9b89ff5ef638175a54}{dims\+Valid}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_a300382f6bae79a9b89ff5ef638175a54}\label{class_shape_lib_1_1_circle_a300382f6bae79a9b89ff5ef638175a54}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!dimsValid@{dimsValid}}
+\index{dimsValid@{dimsValid}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{dimsValid}{dimsValid}}
+{\footnotesize\ttfamily bool Shape\+Lib\+::\+Circle\+::dims\+Valid = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Information if circle area volume and border length is valido or not. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_shape_lib_1_1_circle_a72dc2990ed0f054fd113cfa1820e093a}{recalculate\+Dim()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}\label{class_shape_lib_1_1_circle_a6f4842249f96adecdaf48629aa96d857}} 
+\index{ShapeLib::Circle@{ShapeLib::Circle}!radius@{radius}}
+\index{radius@{radius}!ShapeLib::Circle@{ShapeLib::Circle}}
+\doxysubsubsection{\texorpdfstring{radius}{radius}}
+{\footnotesize\ttfamily int Shape\+Lib\+::\+Circle\+::radius\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Dimension of circle radius. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{circle_8h}{circle.\+h}}\item 
+\mbox{\hyperlink{circle_8cpp}{circle.\+cpp}}\end{DoxyCompactItemize}

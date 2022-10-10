@@ -39,6 +39,9 @@ void ShapeLib::Rectangle::recalculateDim() {
     dimValid = true;
 }
 
+/**
+ * @brief Print out basic rectangle info (ID, P2 and P2)
+ */
 void ShapeLib::Rectangle::printInfo() const {
     std::cout << "Rectangle ID:" << ID << std::endl;
     std::cout << "\tP1 (" << p1.x << "," << p1.y << ")" << std::endl;
@@ -63,6 +66,12 @@ void ShapeLib::Rectangle::setP2(const Point &p2) {
     dimValid = false;
 }
 
+/**
+ * @brief Stream operator for Rectangle class.
+ * @param stream output stream
+ * @param rect the Rectangle object to be printed out
+ * @return the original output stream
+ */
 std::ostream &ShapeLib::operator<<(std::ostream &stream, ShapeLib::Rectangle &rect) {
     std::cout << "Rectangle ID:" << rect.getID() << std::endl;
     std::cout << "\tP1 (" << rect.getP1().x << "," << rect.getP1().y << ")" << std::endl;
