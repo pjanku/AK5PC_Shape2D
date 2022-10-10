@@ -1,6 +1,7 @@
 # AK5PC - Shape 2D
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+
 Demonstration project for AK5PC course.
 
 ## What you may find in this project about
@@ -44,4 +45,12 @@ It is configured as a shared library. The second project contains only short dem
 +-- main.cpp        # the main demonstration file
 +-- CMakeLists.txt  # the configuration for demonsration project
 ```
+## Project documentation
 
+[GitHub repository](https://github.com/pjanku/AK5PC_Shape2D)
+
+[Project webpages](https://pjanku.github.io/AK5PC_Shape2D/)
+
+[Doxygen ONLINE documentation](https://pjanku.github.io/AK5PC_Shape2D/doc/output/html)
+
+[Doxygen PDF documentation](https://pjanku.github.io/AK5PC_Shape2D/doc/output/latex/refman.pdf)
