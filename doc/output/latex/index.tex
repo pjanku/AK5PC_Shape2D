@@ -1,3 +1,45 @@
 \label{index_md__Users_peterjanku_SourcesCpp_AK5PC_Shape2D_README}%
 \Hypertarget{index_md__Users_peterjanku_SourcesCpp_AK5PC_Shape2D_README}%
- Demonstration project for AK5\+PC course. 
+\href{https://opensource.org/licenses/MIT}{\texttt{ }}
+
+Demonstration project for AK5\+PC course.\hypertarget{index_autotoc_md1}{}\doxysection{What you may find in this project about}\label{index_autotoc_md1}
+Simplified demonstration of selected C++ features\+:
+\begin{DoxyItemize}
+\item Classes, abstract classes and basic inheritance
+\item Class members, member methods, functions and pure virtual functions
+\item Namespaces
+\item Simple constructors and constructor delegation
+\item Function overriding
+\item Simple operator overriding
+\item References and their usage
+\item Basic output stream usage
+\item etc.
+\end{DoxyItemize}\hypertarget{index_autotoc_md2}{}\doxysection{What you DON\textquotesingle{}\+T find in this project}\label{index_autotoc_md2}
+Because this project is most about C++ syntax and fundamental principles and is provided as supplemental material for the C++ classes, it\textquotesingle{}s not focused on following things
+\begin{DoxyItemize}
+\item C++ best practices descriptions and demonstrations
+\item Application architecture recommendations
+\item Optimization guides
+\end{DoxyItemize}\hypertarget{index_autotoc_md3}{}\doxysection{Project structure}\label{index_autotoc_md3}
+The project is composed by CMake tool usage and is separated into two separate project. The first project is focused on \mbox{\hyperlink{namespace_shape_lib}{Shape\+Lib}} and is placed with corresponding folder. It is configured as a shared library. The second project contains only short demonstration of the library written in \mbox{\hyperlink{main_8cpp}{main.\+cpp}}. The file and configuration is placed in root folder.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{..}
+\DoxyCodeLine{.}
+\DoxyCodeLine{+-\/-\/ doc \# project documentation }
+\DoxyCodeLine{|   +-\/-\/ output}
+\DoxyCodeLine{|   |   +-\/-\/ html        \# generated documentation in HTML format}
+\DoxyCodeLine{|   |   +-\/-\/ latex       \# generated documentation in LaTex format (pdf)}
+\DoxyCodeLine{|   +-\/-\/ proj            \# Doxygen project configuration}
+\DoxyCodeLine{|}
+\DoxyCodeLine{+-\/-\/ ShapeLib            \# the ShapeLib library project}
+\DoxyCodeLine{|   +-\/-\/ include         \# header files}
+\DoxyCodeLine{|   +-\/-\/ src             \# source files}
+\DoxyCodeLine{|   +-\/-\/ CMakeLists.txt  \# library project configuration}
+\DoxyCodeLine{|}
+\DoxyCodeLine{+-\/-\/ main.cpp        \# the main demonstration file}
+\DoxyCodeLine{+-\/-\/ CMakeLists.txt  \# the configuration for demonsration project}
+
+\end{DoxyCode}
+ 

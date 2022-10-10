@@ -1,214 +1,262 @@
 \begin{theindex}
 
   \item {\_\_has\_include}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{27}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{31}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{33}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{37}
 
   \indexspace
 
   \item {ARCHITECTURE\_ID}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{28}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{31}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{34}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{37}
+
+  \indexspace
+
+  \item {borderLength}
+    \subitem {ShapeLib::Circle}, \hyperpage{19}
 
   \indexspace
 
   \item {C\_VERSION}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{28}
-  \item {CMakeCCompilerId.c}, \hyperpage{27}
-    \subitem {\_\_has\_include}, \hyperpage{27}
-    \subitem {ARCHITECTURE\_ID}, \hyperpage{28}
-    \subitem {C\_VERSION}, \hyperpage{28}
-    \subitem {COMPILER\_ID}, \hyperpage{28}
-    \subitem {DEC}, \hyperpage{28}
-    \subitem {HEX}, \hyperpage{28}
-    \subitem {info\_arch}, \hyperpage{29}
-    \subitem {info\_compiler}, \hyperpage{29}
-    \subitem {info\_language\_extensions\_default}, \hyperpage{29}
-    \subitem {info\_language\_standard\_default}, \hyperpage{30}
-    \subitem {info\_platform}, \hyperpage{30}
-    \subitem {main}, \hyperpage{29}
-    \subitem {PLATFORM\_ID}, \hyperpage{28}
-    \subitem {STRINGIFY}, \hyperpage{29}
-    \subitem {STRINGIFY\_HELPER}, \hyperpage{29}
-  \item {CMakeCXXCompilerId.cpp}, \hyperpage{30}
-    \subitem {\_\_has\_include}, \hyperpage{31}
-    \subitem {ARCHITECTURE\_ID}, \hyperpage{31}
-    \subitem {COMPILER\_ID}, \hyperpage{31}
-    \subitem {CXX\_STD}, \hyperpage{31}
-    \subitem {DEC}, \hyperpage{31}
-    \subitem {HEX}, \hyperpage{31}
-    \subitem {info\_arch}, \hyperpage{32}
-    \subitem {info\_compiler}, \hyperpage{33}
-    \subitem {info\_language\_extensions\_default}, \hyperpage{33}
-    \subitem {info\_language\_standard\_default}, \hyperpage{33}
-    \subitem {info\_platform}, \hyperpage{33}
-    \subitem {main}, \hyperpage{32}
-    \subitem {PLATFORM\_ID}, \hyperpage{32}
-    \subitem {STRINGIFY}, \hyperpage{32}
-    \subitem {STRINGIFY\_HELPER}, \hyperpage{32}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{34}
+  \item {centerPoint}
+    \subitem {ShapeLib::Circle}, \hyperpage{20}
+  \item {Circle}
+    \subitem {ShapeLib::Circle}, \hyperpage{16, 17}
+  \item {circle.cpp}, \hyperpage{44}
+  \item {circle.h}, \hyperpage{40, 41}
+  \item {circleVolume}
+    \subitem {ShapeLib::Circle}, \hyperpage{20}
+  \item {CMakeCCompilerId.c}, \hyperpage{33}
+    \subitem {\_\_has\_include}, \hyperpage{33}
+    \subitem {ARCHITECTURE\_ID}, \hyperpage{34}
+    \subitem {C\_VERSION}, \hyperpage{34}
+    \subitem {COMPILER\_ID}, \hyperpage{34}
+    \subitem {DEC}, \hyperpage{34}
+    \subitem {HEX}, \hyperpage{34}
+    \subitem {info\_arch}, \hyperpage{35}
+    \subitem {info\_compiler}, \hyperpage{35}
+    \subitem {info\_language\_extensions\_default}, \hyperpage{35}
+    \subitem {info\_language\_standard\_default}, \hyperpage{36}
+    \subitem {info\_platform}, \hyperpage{36}
+    \subitem {main}, \hyperpage{35}
+    \subitem {PLATFORM\_ID}, \hyperpage{34}
+    \subitem {STRINGIFY}, \hyperpage{35}
+    \subitem {STRINGIFY\_HELPER}, \hyperpage{35}
+  \item {CMakeCXXCompilerId.cpp}, \hyperpage{36}
+    \subitem {\_\_has\_include}, \hyperpage{37}
+    \subitem {ARCHITECTURE\_ID}, \hyperpage{37}
+    \subitem {COMPILER\_ID}, \hyperpage{37}
+    \subitem {CXX\_STD}, \hyperpage{37}
+    \subitem {DEC}, \hyperpage{37}
+    \subitem {HEX}, \hyperpage{37}
+    \subitem {info\_arch}, \hyperpage{38}
+    \subitem {info\_compiler}, \hyperpage{39}
+    \subitem {info\_language\_extensions\_default}, \hyperpage{39}
+    \subitem {info\_language\_standard\_default}, \hyperpage{39}
+    \subitem {info\_platform}, \hyperpage{39}
+    \subitem {main}, \hyperpage{38}
+    \subitem {PLATFORM\_ID}, \hyperpage{38}
+    \subitem {STRINGIFY}, \hyperpage{38}
+    \subitem {STRINGIFY\_HELPER}, \hyperpage{38}
   \item {COMPILER\_ID}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{28}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{31}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{34}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{37}
   \item {CXX\_STD}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{31}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{37}
 
   \indexspace
 
   \item {DEC}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{28}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{31}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{34}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{37}
+  \item {dimsValid}
+    \subitem {ShapeLib::Circle}, \hyperpage{20}
   \item {dimValid}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{22}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{28}
 
   \indexspace
 
+  \item {getBorderLength}
+    \subitem {ShapeLib::Circle}, \hyperpage{17}
+  \item {getCenterPoint}
+    \subitem {ShapeLib::Circle}, \hyperpage{17}
+  \item {getCircleVolume}
+    \subitem {ShapeLib::Circle}, \hyperpage{18}
   \item {getHeight}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{20}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{26}
   \item {getID}
-    \subitem {ShapeLib::Shape}, \hyperpage{24}
+    \subitem {ShapeLib::Shape}, \hyperpage{30}
   \item {getP1}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{20}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{26}
   \item {getP2}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{20}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{26}
+  \item {getRadius}
+    \subitem {ShapeLib::Circle}, \hyperpage{18}
   \item {getWidth}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{21}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{26}
 
   \indexspace
 
   \item {height}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{22}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{28}
   \item {HEX}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{28}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{31}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{34}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{37}
   \item {horizontalDistance}
-    \subitem {Point}, \hyperpage{16}
+    \subitem {ShapeLib::Point}, \hyperpage{22}
 
   \indexspace
 
   \item {ID}
-    \subitem {ShapeLib::Shape}, \hyperpage{25}
+    \subitem {ShapeLib::Shape}, \hyperpage{31}
   \item {info\_arch}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{29}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{32}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{38}
   \item {info\_compiler}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{29}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{33}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{39}
   \item {info\_language\_extensions\_default}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{29}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{33}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{39}
   \item {info\_language\_standard\_default}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{30}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{33}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{36}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{39}
   \item {info\_platform}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{30}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{33}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{36}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{39}
 
   \indexspace
 
-  \item {LICENSE.MD}, \hyperpage{33}
+  \item {LICENSE.MD}, \hyperpage{39}
 
   \indexspace
 
   \item {main}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{29}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{32}
-    \subitem {main.cpp}, \hyperpage{34}
-  \item {main.cpp}, \hyperpage{33}
-    \subitem {main}, \hyperpage{34}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{38}
+    \subitem {main.cpp}, \hyperpage{40}
+  \item {main.cpp}, \hyperpage{39}
+    \subitem {main}, \hyperpage{40}
 
   \indexspace
 
   \item {operator$<$$<$}
-    \subitem {ShapeLib}, \hyperpage{13}
+    \subitem {ShapeLib}, \hyperpage{13, 14}
 
   \indexspace
 
   \item {p1}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{22}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{28}
   \item {p2}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{23}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{29}
   \item {PLATFORM\_ID}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{28}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{32}
-  \item {Point}, \hyperpage{15}
-    \subitem {horizontalDistance}, \hyperpage{16}
-    \subitem {Point}, \hyperpage{16}
-    \subitem {verticalDistance}, \hyperpage{16}
-    \subitem {x}, \hyperpage{17}
-    \subitem {y}, \hyperpage{17}
-  \item {point.cpp}, \hyperpage{36}
-  \item {point.h}, \hyperpage{34}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{34}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{38}
+  \item {Point}
+    \subitem {ShapeLib::Point}, \hyperpage{21}
+  \item {point.cpp}, \hyperpage{44}
+  \item {point.h}, \hyperpage{41, 42}
   \item {printInfo}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{21}
-    \subitem {ShapeLib::Shape}, \hyperpage{24}
+    \subitem {ShapeLib::Circle}, \hyperpage{18}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{27}
+    \subitem {ShapeLib::Shape}, \hyperpage{31}
 
   \indexspace
 
-  \item {README.md}, \hyperpage{34}
+  \item {radius}
+    \subitem {ShapeLib::Circle}, \hyperpage{20}
+  \item {README.md}, \hyperpage{40}
   \item {recalculateDim}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{21}
+    \subitem {ShapeLib::Circle}, \hyperpage{18}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{27}
   \item {Rectangle}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{19}
-  \item {rectangle.cpp}, \hyperpage{36}
-  \item {rectangle.h}, \hyperpage{34, 35}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{25}
+  \item {rectangle.cpp}, \hyperpage{45}
+  \item {rectangle.h}, \hyperpage{42, 43}
 
   \indexspace
 
+  \item {setCenterPoint}
+    \subitem {ShapeLib::Circle}, \hyperpage{19}
   \item {setP1}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{21}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{27}
   \item {setP2}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{22}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{28}
+  \item {setRadius}
+    \subitem {ShapeLib::Circle}, \hyperpage{19}
   \item {Shape}
-    \subitem {ShapeLib::Shape}, \hyperpage{24}
-  \item {shape.cpp}, \hyperpage{37}
-  \item {shape.h}, \hyperpage{36}
+    \subitem {ShapeLib::Shape}, \hyperpage{30}
+  \item {shape.cpp}, \hyperpage{45}
+  \item {shape.h}, \hyperpage{43, 44}
   \item {ShapeLib}, \hyperpage{13}
-    \subitem {operator$<$$<$}, \hyperpage{13}
-  \item {ShapeLib::Rectangle}, \hyperpage{18}
-    \subitem {dimValid}, \hyperpage{22}
-    \subitem {getHeight}, \hyperpage{20}
-    \subitem {getP1}, \hyperpage{20}
-    \subitem {getP2}, \hyperpage{20}
-    \subitem {getWidth}, \hyperpage{21}
-    \subitem {height}, \hyperpage{22}
-    \subitem {p1}, \hyperpage{22}
-    \subitem {p2}, \hyperpage{23}
-    \subitem {printInfo}, \hyperpage{21}
-    \subitem {recalculateDim}, \hyperpage{21}
-    \subitem {Rectangle}, \hyperpage{19}
-    \subitem {setP1}, \hyperpage{21}
-    \subitem {setP2}, \hyperpage{22}
-    \subitem {width}, \hyperpage{23}
-  \item {ShapeLib::Shape}, \hyperpage{23}
-    \subitem {getID}, \hyperpage{24}
-    \subitem {ID}, \hyperpage{25}
-    \subitem {printInfo}, \hyperpage{24}
-    \subitem {Shape}, \hyperpage{24}
+    \subitem {operator$<$$<$}, \hyperpage{13, 14}
+  \item {ShapeLib::Circle}, \hyperpage{15}
+    \subitem {borderLength}, \hyperpage{19}
+    \subitem {centerPoint}, \hyperpage{20}
+    \subitem {Circle}, \hyperpage{16, 17}
+    \subitem {circleVolume}, \hyperpage{20}
+    \subitem {dimsValid}, \hyperpage{20}
+    \subitem {getBorderLength}, \hyperpage{17}
+    \subitem {getCenterPoint}, \hyperpage{17}
+    \subitem {getCircleVolume}, \hyperpage{18}
+    \subitem {getRadius}, \hyperpage{18}
+    \subitem {printInfo}, \hyperpage{18}
+    \subitem {radius}, \hyperpage{20}
+    \subitem {recalculateDim}, \hyperpage{18}
+    \subitem {setCenterPoint}, \hyperpage{19}
+    \subitem {setRadius}, \hyperpage{19}
+  \item {ShapeLib::Point}, \hyperpage{21}
+    \subitem {horizontalDistance}, \hyperpage{22}
+    \subitem {Point}, \hyperpage{21}
+    \subitem {verticalDistance}, \hyperpage{22}
+    \subitem {x}, \hyperpage{23}
+    \subitem {y}, \hyperpage{23}
+  \item {ShapeLib::Rectangle}, \hyperpage{23}
+    \subitem {dimValid}, \hyperpage{28}
+    \subitem {getHeight}, \hyperpage{26}
+    \subitem {getP1}, \hyperpage{26}
+    \subitem {getP2}, \hyperpage{26}
+    \subitem {getWidth}, \hyperpage{26}
+    \subitem {height}, \hyperpage{28}
+    \subitem {p1}, \hyperpage{28}
+    \subitem {p2}, \hyperpage{29}
+    \subitem {printInfo}, \hyperpage{27}
+    \subitem {recalculateDim}, \hyperpage{27}
+    \subitem {Rectangle}, \hyperpage{25}
+    \subitem {setP1}, \hyperpage{27}
+    \subitem {setP2}, \hyperpage{28}
+    \subitem {width}, \hyperpage{29}
+  \item {ShapeLib::Shape}, \hyperpage{29}
+    \subitem {getID}, \hyperpage{30}
+    \subitem {ID}, \hyperpage{31}
+    \subitem {printInfo}, \hyperpage{31}
+    \subitem {Shape}, \hyperpage{30}
   \item {STRINGIFY}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{29}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{32}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{38}
   \item {STRINGIFY\_HELPER}
-    \subitem {CMakeCCompilerId.c}, \hyperpage{29}
-    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{32}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{38}
 
   \indexspace
 
   \item {verticalDistance}
-    \subitem {Point}, \hyperpage{16}
+    \subitem {ShapeLib::Point}, \hyperpage{22}
 
   \indexspace
 
   \item {width}
-    \subitem {ShapeLib::Rectangle}, \hyperpage{23}
+    \subitem {ShapeLib::Rectangle}, \hyperpage{29}
 
   \indexspace
 
   \item {x}
-    \subitem {Point}, \hyperpage{17}
+    \subitem {ShapeLib::Point}, \hyperpage{23}
 
   \indexspace
 
   \item {y}
-    \subitem {Point}, \hyperpage{17}
+    \subitem {ShapeLib::Point}, \hyperpage{23}
 
 \end{theindex}

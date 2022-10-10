@@ -65,8 +65,47 @@ $(function() {
   <div class="headertitle"><div class="title">AK5PC - Shape 2D </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="md__Users_peterjanku_SourcesCpp_AK5PC_Shape2D_README"></a> Demonstration project for AK5PC course. </p>
-</div></div><!-- PageDoc -->
+<div class="textblock"><p ><a class="anchor" id="md__Users_peterjanku_SourcesCpp_AK5PC_Shape2D_README"></a><a href="https://opensource.org/licenses/MIT"><img alt="License: MIT" class="inline" src="https://img.shields.io/badge/License-MIT-yellow.svg" style="pointer-events: none;"/></a></p>
+<p >Demonstration project for AK5PC course.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+What you may find in this project about</h1>
+<p >Simplified demonstration of selected C++ features:</p><ul>
+<li>Classes, abstract classes and basic inheritance</li>
+<li>Class members, member methods, functions and pure virtual functions</li>
+<li>Namespaces</li>
+<li>Simple constructors and constructor delegation</li>
+<li>Function overriding</li>
+<li>Simple operator overriding</li>
+<li>References and their usage</li>
+<li>Basic output stream usage</li>
+<li>etc.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md2"></a>
+What you DON'T find in this project</h1>
+<p >Because this project is most about C++ syntax and fundamental principles and is provided as supplemental material for the C++ classes, it's not focused on following things</p><ul>
+<li>C++ best practices descriptions and demonstrations</li>
+<li>Application architecture recommendations</li>
+<li>Optimization guides</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Project structure</h1>
+<p >The project is composed by CMake tool usage and is separated into two separate project. The first project is focused on <a class="el" href="namespace_shape_lib.html">ShapeLib</a> and is placed with corresponding folder. It is configured as a shared library. The second project contains only short demonstration of the library written in <a class="el" href="main_8cpp.html">main.cpp</a>. The file and configuration is placed in root folder.</p>
+<div class="fragment"><div class="line">..</div>
+<div class="line">.</div>
+<div class="line">+-- doc # project documentation </div>
+<div class="line">|   +-- output</div>
+<div class="line">|   |   +-- html        # generated documentation in HTML format</div>
+<div class="line">|   |   +-- latex       # generated documentation in LaTex format (pdf)</div>
+<div class="line">|   +-- proj            # Doxygen project configuration</div>
+<div class="line">|</div>
+<div class="line">+-- ShapeLib            # the ShapeLib library project</div>
+<div class="line">|   +-- include         # header files</div>
+<div class="line">|   +-- src             # source files</div>
+<div class="line">|   +-- CMakeLists.txt  # library project configuration</div>
+<div class="line">|</div>
+<div class="line">+-- main.cpp        # the main demonstration file</div>
+<div class="line">+-- CMakeLists.txt  # the configuration for demonsration project</div>
+</div><!-- fragment --> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
