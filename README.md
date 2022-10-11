@@ -4,7 +4,7 @@
 
 Demonstration project for AK5PC course.
 
-## What you may find in this project about
+## What you may find in this project
 Simplified demonstration of selected C++ features:
 * Classes, abstract classes and basic inheritance 
 * Class members, member methods, functions and pure virtual functions
